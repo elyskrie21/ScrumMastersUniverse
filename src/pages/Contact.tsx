@@ -1,7 +1,7 @@
 import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
-import {FaRegEnvelope} from "react-icons/fa"
+
 export const Contact = () => {
   return (
     <div>
