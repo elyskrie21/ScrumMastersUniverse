@@ -9,9 +9,7 @@ export const NavBar = () => {
   const navigation = [
     { name: "Home", href: "/" },
     { name: "Training", href: "/training" },
-    { name: "Course Schedule", href: "/courses" },
     { name: "Events", href: "/events" },
-    { name: "Resources", href: "/resources" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
