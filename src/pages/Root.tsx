@@ -13,7 +13,7 @@ import JamieKriegel from "../assets/img/jamie-kriegel.png";
 
 export const Root = () => {
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto">
       <NavBar />
       <section className="bg-center bg-no-repeat intro bg-blend-multiply">
         <div className="px-4 w-full mx-auto max-w-screen-xl text-center lg:py-40">
@@ -40,10 +40,10 @@ export const Root = () => {
               </svg>
             </Link>
             <Link
-              to="training"
+              to="contact"
               className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
             >
-              Learn more
+              Contact Us
             </Link>
           </div>
         </div>

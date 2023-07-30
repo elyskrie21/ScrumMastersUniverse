@@ -1,12 +1,17 @@
-import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 
 export const Contact = () => {
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
-      <SecondaryHeader title="Contact" />
+      <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
+        <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
+            Contact Us
+          </h1>
+        </div>
+      </section>
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
