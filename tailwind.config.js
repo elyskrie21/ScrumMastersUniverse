@@ -24,11 +24,12 @@ export default {
         },
         secondary: {
           "50": "#f8f8f8",
-          "100":"#ed1c24", 
+          "100": "#ed1c24",
         },
       },
       backgroundImage: {
         "planets": "url('./src/assets/img/header.jpg')",
+        "jamie": "url('./src/assets/img/jamie-kriegel.png')",
       },
     },
     fontFamily: {},
