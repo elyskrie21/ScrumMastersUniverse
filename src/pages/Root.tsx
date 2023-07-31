@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 import {
@@ -10,42 +9,17 @@ import {
 } from "react-icons/fa";
 import MarkMetze from "../assets/img/mark-metze.png";
 import JamieKriegel from "../assets/img/jamie-kriegel.png";
+import Anu from "../assets/img/anuradha.jpeg";
+import JeffColvin from "../assets/img/jeff-colvin.jpg";
+import Donna from "../assets/img/DonnaReynolds.jpeg";
+import NewsletterImage from "../assets/img/f8.png";
 
 export const Root = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
       <section className="bg-center bg-no-repeat intro bg-blend-multiply">
-        <div className="px-4 w-full mx-auto max-w-screen-xl text-center lg:py-40">
-          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 py-16">
-            <Link
-              to="courses"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-            >
-              View Courses
-              <svg
-                className="w-3.5 h-3.5 ml-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
-            </Link>
-            <Link
-              to="contact"
-              className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
-            >
-              Contact Us
-            </Link>
-          </div>
+        <div className="px-4 w-full mx-auto max-w-screen-xl text-center lg:py-56">
         </div>
       </section>
 
@@ -187,7 +161,7 @@ export const Root = () => {
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <img
-                    className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
                     src={JamieKriegel}
                     alt="Bonnie Avatar"
                   />
@@ -202,66 +176,128 @@ export const Root = () => {
                   <p>
                     Primary Trainer
                   </p>
+                  <p>
+                    Professional Scrum Master
+                  </p>
                 </div>
               </div>
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <img
-                    className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                    className="rounded-lg  sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
                     src={MarkMetze}
                     alt="Jese Avatar"
                   />
                 </a>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Jese Leos</a>
+                    <a href="#">Mark Metze</a>
                   </h3>
-                  <span className="text-gray-500 dark:text-gray-400">CTO</span>
-                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                    Jese drives the technical strategy of the flowbite platform
-                    and brand.
+                  <p className="dark:text-gray-400">
+                    Professional Scrum Master
+                  </p>
+                  <p>
+                    SMOTU Meetup Leadership Team Member
                   </p>
                 </div>
               </div>
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <img
-                    className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
-                    alt="Michael Avatar"
+                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:max-h-48"
+                    src={Anu}
+                    alt="Jese Avatar"
                   />
                 </a>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Michael Gough</a>
+                    <a href="#">Anuradha Aravindh Raj</a>
                   </h3>
-                  <span className="dark:text-gray-400">
-                    Senior Front-end Developer
-                  </span>
-                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                    Michael drives the technical strategy of the flowbite
-                    platform and brand.
+                  <p className="dark:text-gray-400">
+                    Professional Scrum Master
+                  </p>
+                  <p>
+                    SMOTU Meetup Leadership Team Member
                   </p>
                 </div>
               </div>
               <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <img
-                    className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png"
-                    alt="Sofia Avatar"
+                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:w-48"
+                    src={JamieKriegel}
+                    alt="Jese Avatar"
                   />
                 </a>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Lana Byrd</a>
+                    <a href="#">Mary Nogami</a>
                   </h3>
-                  <span className="text-gray-500 dark:text-gray-400">
-                    Marketing & Sale
-                  </span>
-                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                    Lana drives the technical strategy of the flowbite platform
-                    and brand.
+                  <p className="dark:text-gray-400">
+                    Professional Scrum Master
+                  </p>
+                  <p>
+                    SMOTU Meetup Leadership Team Member
+                  </p>
+                </div>
+              </div>
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img
+                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
+                    src={JeffColvin}
+                    alt="Jese Avatar"
+                  />
+                </a>
+                <div className="p-5">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <a href="#">Jeff Colvin</a>
+                  </h3>
+                  <p className="dark:text-gray-400">
+                    Professional Scrum Master
+                  </p>
+                  <p>
+                    SMOTU Meetup Leadership Team Member
+                  </p>
+                </div>
+              </div>
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img
+                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:w-48"
+                    src={Donna}
+                    alt="Jese Avatar"
+                  />
+                </a>
+                <div className="p-5">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <a href="#">Donna Reynolds</a>
+                  </h3>
+                  <p className="dark:text-gray-400">
+                    Professional Scrum Master
+                  </p>
+                  <p>
+                    SMOTU Meetup Leadership Team Member
+                  </p>
+                </div>
+              </div>
+              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img
+                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:w-48"
+                    src={JamieKriegel}
+                    alt="Jese Avatar"
+                  />
+                </a>
+                <div className="p-5">
+                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <a href="#">Marco Burville</a>
+                  </h3>
+                  <p className="dark:text-gray-400">
+                    Agile Coach/Consultant
+                  </p>
+                  <p>
+                    SMOTU Meetup Leadership Team Member
                   </p>
                 </div>
               </div>
@@ -358,7 +394,7 @@ export const Root = () => {
                 </div>
               </div>
               <img
-                className="w-full dark:hidden"
+                className="w-full hidden dark:hidden lg:block"
                 src="src/assets/img/f2.png"
                 alt="dashboard image"
               />
@@ -366,65 +402,36 @@ export const Root = () => {
           </div>
         </div>
       </div>
-      <section className="dark:bg-gray-900">
-        <div className="bg-primary-600 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div className="mx-auto max-w-screen-md sm:text-center">
-            <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">
-              Sign up for our newsletter
-            </h2>
-            <p className="mx-auto mb-8 max-w-2xl font-light text-white md:mb-12 sm:text-xl dark:text-gray-400">
-              Stay up to date with the roadmap progress, announcements and
-              exclusive discounts feel free to sign up with your email.
-            </p>
-            <form action="#">
-              <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
-                <div className="relative w-full">
-                  <label
-                    htmlFor="email"
-                    className="hidden mb-2 text-sm font-medium text-white dark:text-gray-300"
-                  >
-                    Email address
-                  </label>
-                  <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-                    <svg
-                      className="w-5 h-5 text-gray-500 dark:text-gray-400"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z">
-                      </path>
-                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z">
-                      </path>
-                    </svg>
-                  </div>
-                  <input
-                    className="block p-3 pl-10 w-full text-sm text-gray-500 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                    placeholder="Enter your email"
-                    type="email"
-                    id="email"
-                    required={true}
-                  />
-                </div>
-                <div>
-                  <button
-                    type="submit"
-                    className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-700 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              </div>
-              <div className="mx-auto max-w-screen-sm text-sm text-left text-white newsletter-form-footer dark:text-gray-300">
-                We care about the protection of your data.
+      <section>
+        <div className="bg-secondary-100 py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="sm:text-center grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="flex justify-center">
+              <img
+                className="h-64 md:h-full"
+                src={NewsletterImage}
+                alt="Person image"
+              />
+            </div>
+            <div className="md:col-span-3 px-4">
+              <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">
+                Sign up for our newsletter
+              </h2>
+              <p className="mx-auto mb-8 max-w-2xl font-light text-white md:mb-12 sm:text-xl dark:text-gray-400">
+                Want to keep up on Scrum Masters of the Universe latest news?
+                Sign up for our Newsletter to be the first to know of new course
+                offerings, Meetup Events and special deals from our amazing
+                sponsors!
+              </p>
+              <div className="items-center flex justify-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                 <a
-                  href="#"
-                  className="font-medium text-gray-300 dark:text-primary-500 hover:underline"
+                  href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7088995230884007936"
+                  target="_blank"
+                  className="py-3 w-64 text-sm font-medium text-center text-white cursor-pointer bg-primary-700 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                 >
-                  Read our Privacy Policy
-                </a>.
+                  Subscribe on LinkedIn
+                </a>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </section>

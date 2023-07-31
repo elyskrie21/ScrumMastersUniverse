@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
-
+import { MdKeyboardArrowUp, MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { Link } from "react-router-dom";
 export const Training = () => {
+  const [faqNum, setFaqNum] = useState(0);
   return (
     <div className=" max-w-screen-2xl mx-auto ">
       <NavBar />
@@ -15,7 +18,13 @@ export const Training = () => {
                 Scrum Mastery Pathway
               </h1>
               <p className="font-light sm:text-lg dark:text-gray-400">
-                A quick main overview of what it is
+                This is no ordinary training course. Embark on the Scrum Mastery
+                Pathway - Explorer, where we elevate Scrum Masters to Agile
+                Wizards. Navigate mystical realms, harness spells of knowledge,
+                and inspire high-performing teams. From Good to Great, we're
+                transforming ordinary Scrum Masters into extraordinary Agile
+                Sorcerers. Don your cape, grab your wand and join us on this
+                spellbinding journey to Scrum Mastery!
               </p>
             </div>
             <div>
@@ -23,12 +32,16 @@ export const Training = () => {
                 Who is this for?
               </h1>
               <p className="font-light sm:text-lg dark:text-gray-400">
-                explain who this is for
+                Scrum Masters who want to become better at their job through a
+                combination of classroom, coaching, and community. The program
+                is aimed at those who are currently, or intend to be, practicing
+                as Scrum Masters. A working knowledge of Scrum is required to
+                attend this class.
               </p>
             </div>
             <div>
               <h1 className="my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
-                What is this class?
+                Pathway Details
               </h1>
               <h2 className="my-2 text-xl tracking-tight font-bold dark:text-white">
                 Workshop One (Explorer) - 2 days
@@ -130,12 +143,12 @@ export const Training = () => {
       </section>
       <section className="cohort pt-16 text-white">
         <div className="flex flex-col w-full ">
-          <p className="flex justify-center my-2 ">join an upcoming cohort</p>
+          <p className="flex justify-center my-2 ">Join An Upcoming Cohort</p>
           <h1 className="flex justify-center text-3xl text-extrabold">
             Scrum Mastery Pathway
           </h1>
           <div className="flex justify-center">
-            <div className="text-center border my-8 grid grid-cols-4 gap-8 p-4 rounded-full">
+            <div className="text-center border my-8 grid grid-cols-4 gap-8 p-4 md:rounded-full">
               <div>
                 <p>Upcoming</p>
                 <p>Cohort 1</p>
@@ -147,18 +160,19 @@ export const Training = () => {
 
               <div px-4>
                 <p>Payment Deadline</p>
-                <p>September 1, 2023</p>
+                <p>September 29, 2023</p>
               </div>
               <div>
                 <p className="sm:text-xl">cost</p>
-                <p>$10</p>
+                <p>$1500</p>
               </div>
             </div>
           </div>
           <div className="flex justify-center mb-8">
             <a
               className="inline-block rounded border px-12 py-3 text-sm font-medium  hover:text-white focus:outline-none focus:ring hover:scale-125"
-              href="/download"
+              href="https://www.eventbrite.com/e/scrum-mastery-pathway-tickets-688578977257"
+              target="_blank"
             >
               Enroll Today
             </a>
@@ -172,183 +186,161 @@ export const Training = () => {
               Frequently Asked Questions
             </h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              Heres are some of the most asked questions
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
             <div className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
               <button
+                onClick={() => faqNum == 1 ? setFaqNum(0) : setFaqNum(1)}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
                 <span className="flex text-lg font-semibold text-black">
-                  How to create an account?
+                  What's with the sorcerer?
                 </span>
-
-                <svg
-                  className="w-6 h-6 text-gray-400 rotate-180"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
+                {faqNum == 1
+                  ? <MdKeyboardArrowUp />
+                  : <MdOutlineKeyboardArrowDown />}
               </button>
-
-              <div className="px-4 pb-5 sm:px-6 sm:pb-6">
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit{" "}
-                  <a
-                    href="#"
-                    title=""
-                    className="text-blue-600 transition-all duration-200 hover:underline"
-                  >
-                    aliqua dolor
-                  </a>{" "}
-                  do amet sint. Velit officia consequat duis enim velit mollit.
-                </p>
-              </div>
-            </div>
-
-            <div className="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
-              <button
-                type="button"
-                className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
-              >
-                <span className="flex text-lg font-semibold text-black">
-                  How can I make payment using Paypal?
-                </span>
-
-                <svg
-                  className="w-6 h-6 text-gray-400"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-
-              <div className="hidden px-4 pb-5 sm:px-6 sm:pb-6">
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit{" "}
-                  <a
-                    href="#"
-                    title=""
-                    className="text-blue-600 transition-all duration-200 hover:underline"
-                  >
-                    aliqua dolor
-                  </a>{" "}
-                  do amet sint. Velit officia consequat duis enim velit mollit.
-                </p>
-              </div>
-            </div>
-
-            <div className="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
-              <div className="">
-                <button
-                  type="button"
-                  className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
-                >
-                  <span className="flex text-lg font-semibold text-black">
-                    Can I cancel my plan?
-                  </span>
-
-                  <svg
-                    className="w-6 h-6 text-gray-400"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-
-                <div className="hidden px-4 pb-5 sm:px-6 sm:pb-6">
+              {faqNum == 1 && (
+                <div className="px-4 pb-5 sm:px-6 sm:pb-6">
                   <p>
-                    Amet minim mollit non deserunt ullamco est sit{" "}
+                    To add some fun and creativity to our Pathway, I decided to
+                    use a metaphor of a sorcerer as Scrum Master. I got the idea
+                    from a blog post written by Geoff Watts (link to post:{" "}
                     <a
-                      href="#"
+                      href="https://agilemasteryinstitute.com/blog/unleashing-the-mighty-scrum-master-unraveling-the-secrets-of-agile-mastery/"
+                      target="_blank"
                       title=""
                       className="text-blue-600 transition-all duration-200 hover:underline"
                     >
-                      aliqua dolor
+                      Here
                     </a>{" "}
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
+                    ) and with his permission decided to use it for our Pathway.
                   </p>
                 </div>
-              </div>
+              )}
             </div>
 
-            <div className="transition-all duration-200 bg-white border border-gray-200 cursor-pointer hover:bg-gray-50">
+            <div className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
               <button
+                onClick={() => faqNum == 2 ? setFaqNum(0) : setFaqNum(2)}
+                type="button"
+                className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+              >
+                <span className="flex text-left text-lg font-semibold text-black">
+                  What does the price of the class include?
+                </span>
+                {faqNum == 2
+                  ? <MdKeyboardArrowUp />
+                  : <MdOutlineKeyboardArrowDown />}
+              </button>
+              {faqNum == 2 && (
+                <div className="px-4 pb-5 sm:px-6 sm:pb-6">
+                  <p>
+                    For the price of a normal two-day certification class, we
+                    offer more value and a more meaningful experience where you
+                    learn to apply what you learned in real world scenarios. The
+                    Scrum Master Pathway includes: Two-day Explorer Class, Five
+                    90-min Navigator workshops, Two-day Adventurer Class, Access
+                    to the Agile Mastery Community, Access to Video Modules,
+                    Smartphone App, and Best Selling "Scrum Mastery" Book.
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className="transition-all duration-200 bg-white shadow-lg border border-gray-200 cursor-pointer hover:bg-gray-50">
+              <button
+                onClick={() => faqNum == 3 ? setFaqNum(0) : setFaqNum(3)}
+                type="button"
+                className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+              >
+                <span className="flex text-lg text-left font-semibold text-black">
+                  Is a refund available if for some reason I can't participate
+                  in the Pathway cohort?
+                </span>
+                {faqNum == 3
+                  ? <MdKeyboardArrowUp />
+                  : <MdOutlineKeyboardArrowDown />}
+              </button>
+              {faqNum == 3 && (
+                <div className="px-4 pb-5 sm:px-6 sm:pb-6">
+                  <p>
+                    Yes, you will receive a refund minus the Eventbrite fees if
+                    you let us know at least five days in advance.
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className="transition-all duration-200 bg-white shadow-lg border border-gray-200 cursor-pointer hover:bg-gray-50">
+              <button
+                onClick={() => faqNum == 4 ? setFaqNum(0) : setFaqNum(4)}
+                type="button"
+                className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+              >
+                <span className="flex text-left text-lg font-semibold text-black">
+                  What if I miss a Navigator workshop?
+                </span>
+                {faqNum == 4
+                  ? <MdKeyboardArrowUp />
+                  : <MdOutlineKeyboardArrowDown />}
+              </button>
+              {faqNum == 4 && (
+                <div className="px-4 pb-5 sm:px-6 sm:pb-6">
+                  <p>
+                    We will record each session for you to view at your
+                    convenience, however as this is the heart of the Pathway,
+                    where connection and collaboration with your peers about
+                    real life scenarios happen, we do request that you attend
+                    most in person in order to be eligible to move on to the
+                    Adventurer class.
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className="transition-all duration-200 bg-white border shadow-lg border-gray-200 cursor-pointer hover:bg-gray-50">
+              <button
+                onClick={() => faqNum == 5 ? setFaqNum(0) : setFaqNum(5)}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
                 <span className="flex text-lg font-semibold text-black">
-                  How can I reach to support?
+                  What is Scrum Mastery?
                 </span>
-
-                <svg
-                  className="w-6 h-6 text-gray-400"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
+                {faqNum == 5
+                  ? <MdKeyboardArrowUp />
+                  : <MdOutlineKeyboardArrowDown />}
               </button>
-
-              <div className="hidden px-4 pb-5 sm:px-6 sm:pb-6">
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit{" "}
-                  <a
-                    href="#"
-                    title=""
-                    className="text-blue-600 transition-all duration-200 hover:underline"
-                  >
-                    aliqua dolor
-                  </a>{" "}
-                  do amet sint. Velit officia consequat duis enim velit mollit.
-                </p>
-              </div>
+              {faqNum == 5 && (
+                <div className="px-4 pb-5 sm:px-6 sm:pb-6">
+                  <p>
+                    As Geoff Watts says, "Scrum Mastery is the difference
+                    between doing agile and being agile. A good Scrum Master
+                    takes a 2-day certified class. A GREAT scrum Master takes
+                    the Scrum Master Pathway."
+                  </p>
+                </div>
+              )}
             </div>
           </div>
 
           <p className="text-center text-gray-600 textbase mt-9">
             Didn’t find the answer you are looking for?{" "}
-            <a
-              href="#"
-              title=""
+            <Link
+              to="/contact"
               className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
             >
-              Contact our support
+              Contact us
+            </Link>{"  "}
+            or read the{"   "}
+            <a
+              href="https://agilemasteryinstitute.com/app/uploads/2022/11/Scrum-Mastery-Pathway-Overview.pdf"
+              target="_blank"
+              className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
+            >
+              Scrum Mastery Pathway Overview
             </a>
           </p>
         </div>

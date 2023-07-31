@@ -1,5 +1,5 @@
+import FooterLogo from "../../assets/img/FooterLogo.png";
 export const Footer = () => {
-
   return (
     <>
       <footer className="bg-white dark:bg-gray-900">
@@ -8,13 +8,10 @@ export const Footer = () => {
             <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
-                  src="./src/assets/img/SCRUM ICON WITHOUT TEXT PNG.png"
-                  className="h-8 mr-3"
-                  alt="FlowBite Logo"
+                  src={FooterLogo}
+                  className="h-32 mr-3"
+                  alt="Scrum Masters of the Universe Logo"
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Scrum Masters of the Universe
-                </span>
               </a>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

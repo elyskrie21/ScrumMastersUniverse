@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Icon from "../../assets/img/SCRUM ICON WITHOUT TEXT PNG.png";
+import Icon from "../../assets/img/HeaderLogo.png";
 import { Link } from "react-router-dom";
 export const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,7 +9,7 @@ export const NavBar = () => {
   const navigation = [
     { name: "Home", href: "/" },
     { name: "Training", href: "/training" },
-    { name: "Events", href: "/events" },
+    { name: "Events", href: "http://bit.ly/smotu-meetup" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
@@ -25,7 +25,7 @@ export const NavBar = () => {
             <span className="sr-only">Scrum Masters of the Universe</span>
             <img
               src={Icon}
-              className="h-9 mr-3"
+              className="h-16 mr-3"
               alt="Flowbite Logo"
             />
           </a>
@@ -44,6 +44,7 @@ export const NavBar = () => {
           {navigation.map((item) => (
             <Link
               to={item.href}
+              target={item.name == "Events" ? "_blank" : "_self"}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               {item.name}
@@ -80,14 +81,14 @@ export const NavBar = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
+               {navigation.map((item) => (
+                  <Link
+                    to={item.href}
+                    target={item.name == "Events" ? "_blank" : "_self"}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
