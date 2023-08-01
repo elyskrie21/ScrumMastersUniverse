@@ -1,4 +1,5 @@
 //** @type {import('tailwindcss').Config} */
+const defaultThem = require('tailwindcss/defaultTheme')
 export default {
   content: [
     "./index.html",
@@ -32,7 +33,7 @@ export default {
         "jamie": "url('./src/assets/img/jamie-kriegel.png')",
       },
     },
-    fontFamily: {},
+    fontFamily: { trifuno: "Trifuno Heavy", sans: ["Trifuno Heavy", ...defaultThem.fontFamily.sans] },
   },
   plugins: [
     require("flowbite/plugin"),
