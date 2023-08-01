@@ -7,7 +7,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import NewsletterImage from "../assets/img/f8.png";
 import AmiLogo from "../assets/img/ami-logo.png";
 import { Link } from "react-router-dom";
 
@@ -489,7 +488,7 @@ export const Root = () => {
                   alt="planet"
                 />
               </a>
-           </div>
+            </div>
           </div>
         </div>
       </div>
@@ -497,11 +496,24 @@ export const Root = () => {
         <div className="bg-secondary-100 py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="sm:text-center grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="flex justify-center">
-              <img
-                className="h-64 md:h-full"
-                src={NewsletterImage}
-                alt="Person image"
-              />
+              <a
+                data-flickr-embed="true"
+                href="https://www.flickr.com/photos/198849856@N02/53085244946/in/dateposted/"
+                title="newsletter"
+              >
+                <img
+                  className="h-64 md:h-full"
+                  src="https://live.staticflickr.com/65535/53085244946_0ae61eb0ac_o.png"
+                  width="600"
+                  height="600"
+                  alt="newsletter"
+                />
+              </a>
+              <script
+                async
+                src="//embedr.flickr.com/assets/client-code.js"
+              >
+              </script>
             </div>
             <div className="md:col-span-3 px-4">
               <h2 className="font-trifuno mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">
