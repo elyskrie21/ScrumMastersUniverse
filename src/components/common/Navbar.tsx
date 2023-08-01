@@ -30,7 +30,7 @@ export const NavBar = () => {
             <span className="sr-only">Scrum Masters of the Universe</span>
             <img
               className="h-16 mr-3"
-              src="https://live.staticflickr.com/65535/53084726047_9fdca3f451_s.jpg"
+              src="https://live.staticflickr.com/65535/53083183099_0207f8eedb_w.jpg"
               width="75"
               height="75"
               alt="X4"

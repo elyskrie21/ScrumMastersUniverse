@@ -70,7 +70,7 @@ export const Root = () => {
                 id="community"
                 className="flex flex-col p-6 w-full justify-center mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white"
               >
-               <h3 className="mb-4 font-trifuno text-3xl font-bold text-white backdrop-brightness-50">
+                <h3 className="mb-4 font-trifuno text-3xl font-bold text-white backdrop-brightness-50">
                   Community
                 </h3>
               </div>
@@ -152,263 +152,276 @@ export const Root = () => {
           </div>
         </section>
 
-        <section className="dark:bg-gray-900">
-          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-            <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-              <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                Our Leadership Team
-              </h2>
+        <section className="body-font max-w-screen-xl mx-auto">
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-col text-center w-full mb-20">
+              <h1 className="text-2xl font-bold title-font mb-4 text-gray-900 tracking-widest">
+                OUR LEADERSHIP TEAM
+              </h1>
             </div>
-            <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
-                  title="jamie-kriegel"
-                >
-                  <img
-                    className="rounded-lg  sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
-                    width="320"
-                    height="319"
-                    alt="jamie-kriegel"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>
-                <div className="p-5">
-                  <h3 className="text-xl font-trifuno font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Jamie Kriegel</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Founder
-                  </p>
-                  <p className="font-trifuno">
-                    Primary Trainer
-                  </p>
-                  <p className="font-trifuno">
-                    Professional Scrum Master
-                  </p>
+            <div className="flex flex-wrap -m-4 justify-center ">
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Jamie Kriegel
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Founder / Primary Trainer
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53083392535/in/dateposted/"
-                  title="mark-metze"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:max-h-48"
-                    src="https://live.staticflickr.com/65535/53083392535_679223d590_w.jpg"
-                    width="297"
-                    height="400"
-                    alt="mark-metze"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>{" "}
-                <div className="p-5">
-                  <h3 className="text-xl font-bold font-trifuno tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Mark Metze</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Professional Scrum Master
-                  </p>
-                  <p className="font-trifuno">
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53083392535_679223d590_w.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Mark Metze
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53083183209/in/dateposted/"
-                  title="anuradha"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53083183209_ffafb39c12_w.jpg"
-                    width="300"
-                    height="400"
-                    alt="anuradha"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>{" "}
-                <div className="p-5">
-                  <h3 className="text-xl font-trifuno font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Anuradha Aravindh Raj</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Professional Scrum Master
-                  </p>
-                  <p className="font-trifuno">
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53083183209_ffafb39c12_w.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Anuradha Aravindh Raj
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53085481815/in/dateposted-public/"
-                  title="Ramya Shastri"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53085481815_dcc77dc19e.jpg"
-                    width="375"
-                    height="500"
-                    alt="Ramya Shastri"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>
-                <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Ramya Shastri</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Professional Scrum Master
-                  </p>
-                  <p>
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53085481815_dcc77dc19e.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Ramya Shastri
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53085674708/in/dateposted/"
-                  title="Mary"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53085674708_c825ccfa25_n.jpg"
-                    width="320"
-                    height="320"
-                    alt="Mary"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>{" "}
-                <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Mary Nogami</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Professional Scrum Master
-                  </p>
-                  <p>
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53085674708_c825ccfa25_n.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Mary Nogami
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53083392535/in/dateposted/"
-                  title="mark-metze"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53083392535_679223d590_w.jpg"
-                    width="297"
-                    height="400"
-                    alt="mark-metze"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>{" "}
-                <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Jeff Colvin</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Professional Scrum Master
-                  </p>
-                  <p>
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53084488637_27847ef405_c.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Marco Burville
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Agile Coach/Consultant
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53083483258/in/dateposted/"
-                  title="DonnaReynolds"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53083483258_efe12f80c4_w.jpg"
-                    width="338"
-                    height="400"
-                    alt="DonnaReynolds"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>{" "}
-                <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Donna Reynolds</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Professional Scrum Master
-                  </p>
-                  <p>
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
+                    title="Maco&#x27;s image"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53083483128_c22384e339_w.jpg"
+                      width="600"
+                      height="800"
+                      alt="Maco&#x27;s image"
+                    />
+                    <script
+                      async
+                      src="//embedr.flickr.com/assets/client-code.js"
+                    >
+                    </script>
+                  </a>
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Jeff Colvin
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                  title="Maco&#x27;s image"
-                >
-                  <img
-                    className="rounded-lg sm:w-full sm:rounded-none sm:rounded-l-lg lg:h-48"
-                    src="https://live.staticflickr.com/65535/53084488637_27847ef405_c.jpg"
-                    width="600"
-                    height="800"
-                    alt="Maco&#x27;s image"
-                  />
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53083483258/in/dateposted/"
+                    title="DonnaReynolds"
+                  >
+                    <img
+                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                      src="https://live.staticflickr.com/65535/53083483258_efe12f80c4_w.jpg"
+                      width="338"
+                      height="400"
+                      alt="DonnaReynolds"
+                    />
+                  </a>
                   <script
                     async
                     src="//embedr.flickr.com/assets/client-code.js"
                   >
-                  </script>
-                </a>
-                <div className="p-5">
-                  <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    <a href="#">Marco Burville</a>
-                  </h3>
-                  <p className="font-trifuno dark:text-gray-400">
-                    Agile Coach/Consultant
-                  </p>
-                  <p>
-                    SMOTU Meetup Leadership Team Member
-                  </p>
+                  </script>{" "}
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Donna Reynolds
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

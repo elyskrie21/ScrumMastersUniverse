@@ -29,7 +29,10 @@ export default {
         },
       },
       backgroundImage: {
-        "planets": "url('https://live.staticflickr.com/65535/53083483233_9a55507c37_h.jpg')",
+        "planets":
+          "url('https://live.staticflickr.com/65535/53083483233_9a55507c37_h.jpg')",
+        "wizard":
+          "url('https://live.staticflickr.com/65535/53082419997_e9501e9881_o.png')",
       },
     },
     fontFamily: {
