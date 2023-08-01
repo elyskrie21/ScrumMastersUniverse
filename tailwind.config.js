@@ -1,5 +1,5 @@
 //** @type {import('tailwindcss').Config} */
-const defaultThem = require('tailwindcss/defaultTheme')
+const defaultThem = require("tailwindcss/defaultTheme");
 export default {
   content: [
     "./index.html",
@@ -29,11 +29,13 @@ export default {
         },
       },
       backgroundImage: {
-        "planets": "url('./src/assets/img/header.jpg')",
-        "jamie": "url('./src/assets/img/jamie-kriegel.png')",
+        "planets": "url('https://live.staticflickr.com/65535/53083483233_9a55507c37_h.jpg')",
       },
     },
-    fontFamily: { trifuno: "Trifuno Heavy", sans: ["Trifuno Heavy", ...defaultThem.fontFamily.sans] },
+    fontFamily: {
+      trifuno: "Trifuno Heavy",
+      sans: ["Trifuno Heavy", ...defaultThem.fontFamily.sans],
+    },
   },
   plugins: [
     require("flowbite/plugin"),

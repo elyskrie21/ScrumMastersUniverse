@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Icon from "../../assets/img/HeaderLogo.png";
 import { Link } from "react-router-dom";
+
 export const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -21,12 +21,19 @@ export const NavBar = () => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="flex">
+          <a
+            className="flex"
+            data-flickr-embed="true"
+            href="#"
+            title="X4"
+          >
             <span className="sr-only">Scrum Masters of the Universe</span>
             <img
-              src={Icon}
               className="h-16 mr-3"
-              alt="Flowbite Logo"
+              src="https://live.staticflickr.com/65535/53084726047_9fdca3f451_s.jpg"
+              width="75"
+              height="75"
+              alt="X4"
             />
           </a>
         </div>
@@ -81,7 +88,7 @@ export const NavBar = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-               {navigation.map((item) => (
+                {navigation.map((item) => (
                   <Link
                     to={item.href}
                     target={item.name == "Events" ? "_blank" : "_self"}

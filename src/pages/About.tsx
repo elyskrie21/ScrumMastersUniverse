@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 
-import JamieKriegel from "../assets/img/jamie-kriegel.png";
 
 export const About = () => {
   return (
@@ -21,24 +20,18 @@ export const About = () => {
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-32 h-32 rounded-full inline-flex items-center md:w-64 md:h-64 justify-center bg-gray-800 text-gray-600">
-                <a
-                  data-flickr-embed="true"
-                  href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
-                  title="jamie-kriegel"
-                >
-                  <img
-                    src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
-                    width="320"
-                    height="319"
-                    alt="jamie-kriegel"
-                  />
-                </a>
-                <script
-                  async
-                  src="//embedr.flickr.com/assets/client-code.js"
-                >
-                </script>
- 
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
+                    title="jamie-kriegel"
+                  >
+                    <img
+                      src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
+                      width="320"
+                      height="319"
+                      alt="jamie-kriegel"
+                    />
+                  </a>
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="title-font font-bold mt-4  text-2xl">

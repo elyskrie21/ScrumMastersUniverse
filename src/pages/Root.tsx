@@ -7,7 +7,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import AmiLogo from "../assets/img/ami-logo.png";
 import { Link } from "react-router-dom";
 
 export const Root = () => {
@@ -71,7 +70,7 @@ export const Root = () => {
                 id="community"
                 className="flex flex-col p-6 w-full justify-center mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white"
               >
-                <h3 className="mb-4 font-trifuno text-3xl font-bold text-white backdrop-brightness-50">
+               <h3 className="mb-4 font-trifuno text-3xl font-bold text-white backdrop-brightness-50">
                   Community
                 </h3>
               </div>
@@ -452,7 +451,18 @@ export const Root = () => {
                         </Link>{" "}
                         to deliver the Scrum Mastery Pathway ™
                       </p>
-                      <img src={AmiLogo} />
+                      <a
+                        data-flickr-embed="true"
+                        href="https://www.flickr.com/photos/198849856@N02/53085666595/in/dateposted/"
+                        title="ami-logo"
+                      >
+                        <img
+                          src="https://live.staticflickr.com/65535/53085666595_4b2f1d3a58_o.png"
+                          width="800"
+                          height="361"
+                          alt="ami-logo"
+                        />
+                      </a>
                     </div>
                     <div className="relative pl-9">
                       <dt className="inline text-xl font-semibold text-gray-900">
