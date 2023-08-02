@@ -20,7 +20,7 @@ export const CourseSchedule = () => {
     getData();
   }, []);
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto">
       <NavBar />
       <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
         <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
