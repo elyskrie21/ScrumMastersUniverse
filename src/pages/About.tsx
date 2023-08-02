@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 
-
 export const About = () => {
   return (
     <div className="max-w-screen-2xl mx-auto ">
@@ -16,10 +15,10 @@ export const About = () => {
       </section>
       <section className="body-font">
         <div className="container px-5 py-16 mx-auto flex flex-col">
-          <div className="lg:w-4/6 mx-auto">
-            <div className="flex flex-col sm:flex-row mt-10">
-              <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <div className="w-32 h-32 rounded-full inline-flex items-center md:w-64 md:h-64 justify-center bg-gray-800 text-gray-600">
+          <div className="mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8 mt-10 ">
+              <div className="sm:py-8  md:col-span-2 mx-auto">
+                <div className=" mx-auto px-4  text-gray-600">
                   <a
                     data-flickr-embed="true"
                     href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
@@ -27,13 +26,14 @@ export const About = () => {
                   >
                     <img
                       src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
+                      className="md:w-64"
                       width="320"
                       height="319"
                       alt="jamie-kriegel"
                     />
                   </a>
                 </div>
-                <div className="flex flex-col items-center text-center justify-center">
+                <div className="flex flex-col items-center text-center ">
                   <h2 className="title-font font-bold mt-4  text-2xl">
                     Jamie Kriegel
                   </h2>
@@ -46,11 +46,31 @@ export const About = () => {
                     Profesional Scrum Master
                   </p>
                   <p className="text-base font-bold ">
-                    Primary Instructor
+                    Primary Trainer
                   </p>
                 </div>
+                <div className=" mx-auto pt-8 px-4 text-gray-600">
+                  <a
+                    data-flickr-embed="true"
+                    href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
+                    title="jamie-kriegel"
+                  >
+                    <img
+                      src="https://live.staticflickr.com/65535/53086987867_5bbe892b56_o.png"
+                      className="md:w-64"
+                      width="320"
+                      height="319"
+                      alt="jamie-kriegel"
+                    />
+                  </a>
+                </div>
+                <div className="flex flex-col items-center text-center justify-center">
+                  <h2 className="title-font font-bold mt-4  text-2xl">
+                    Certified
+                  </h2>
+                </div>
               </div>
-              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+              <div className=" sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center md:col-span-4 lg:col-span-4 sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
                   I’m Jamie Kriegel, a dynamic Agile advocate, mentor, and
                   strategic problem-solver. As someone who thrives on challenges
@@ -123,6 +143,199 @@ export const About = () => {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
+              </div>
+              <div className="text-center px-4 md:col-span-6 lg:col-span-2  md:col-span-2 mx-auto ">
+                <div className="flex flex-col items-center text-center justify-center ">
+                  <h2 className="title-font font-bold mt-4  text-2xl">
+                    Also Certified In
+                  </h2>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4">
+                  </div>
+                  <p className="text-base font-bold mb-4">
+                    Scrum.org
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-3 align-center">
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53088013120_ddbfbb32e9_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53088013120_ddbfbb32e9_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087044967_d58395646a_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087044967_d58395646a_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087795569_ec26c2051a_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087795569_ec26c2051a_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53088104313_352f463e44_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53088104313_352f463e44_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087608001_9095d0694f_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087608001_9095d0694f_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087795549_1bbb250861_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087795549_1bbb250861_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                  </div>
+                  <p className="text-base pt-8 font-bold mb-4">
+                    Scrum Alliance
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-3 align-center">
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087607926_5e02157c19_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087607926_5e02157c19_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087607921_95cf95a9c4_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087607921_95cf95a9c4_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53088104283_5d976861c0_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53088104283_5d976861c0_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53088104288_275fc3d62d_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53088104288_275fc3d62d_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53088104358_c2c47f791d_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53088104358_c2c47f791d_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                  </div>
+                  <p className="text-base pt-8 font-bold mb-4">
+                    ICAgile
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-3 align-center">
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53087607951_818a63e984_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53087607951_818a63e984_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                    <a
+                      data-flickr-embed="true"
+                      href="https://live.staticflickr.com/65535/53088013085_4b3bb0292d_o.png"
+                      title="jamie-kriegel"
+                    >
+                      <img
+                        src="https://live.staticflickr.com/65535/53088013085_4b3bb0292d_o.png"
+                        className="w-24"
+                        width="320"
+                        height="319"
+                        alt="jamie-kriegel"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -21,10 +21,10 @@ export const NavBar = () => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a
+          <Link
             className="flex"
             data-flickr-embed="true"
-            href="#"
+            to="/"
             title="X4"
           >
             <span className="sr-only">Scrum Masters of the Universe</span>
@@ -35,7 +35,7 @@ export const NavBar = () => {
               height="75"
               alt="X4"
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button

@@ -13,7 +13,7 @@ export const Training = () => {
       <section>
         <div className="grid grid-cols-1 gap-4 px-4 lg:grid-cols-12 lg:gap-8 my-8">
           <div className="rounded-lg mx-auto  lg:col-span-7">
-            <div>
+            <div className="pb-8">
               <h1 className="mb-4 text-4xl tracking-tight font-extrabold uppercase dark:text-white">
                 Scrum Mastery Pathway
               </h1>
@@ -27,7 +27,7 @@ export const Training = () => {
                 spellbinding journey to Scrum Mastery!
               </p>
             </div>
-            <div>
+            <div className="pb-8 ">
               <h1 className="my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
                 Who is this for?
               </h1>
@@ -43,38 +43,44 @@ export const Training = () => {
               <h1 className="my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
                 Pathway Details
               </h1>
-              <h2 className="my-2 text-xl tracking-tight font-bold dark:text-white">
-                Workshop One (Explorer) - 2 days
-              </h2>
+              <div className="pb-4">
+                <h2 className="my-2 text-xl tracking-tight font-bold dark:text-white">
+                  Workshop One (Explorer) - 2 days
+                </h2>
 
-              <p className="font-light sm:text-lg dark:text-gray-400">
-                In the first workshop you will meet your fellow learning cohort
-                and ‘explore’ every aspect of what it takes to be a great Scrum
-                Master. You will work through every aspect of Geoff Watts
-                RE-TRAINED model and develop your skills to become more:
-              </p>
-              <ol className="list-disc mx-8 sm:text-lg">
-                <li>Respected</li>
-                <li>Enabling</li>
-                <li>Tactful</li>
-                <li>Resourceful</li>
-                <li>Alternative</li>
-                <li>Inspiring</li>
-                <li>Nurturing</li>
-                <li>Empathic</li>
-                <li>Disruptive</li>
-              </ol>
-              <h2 className="my-2 text-xl tracking-tight font-bold text-gray-900 dark:text-white">
-                Supported Deliberate Practice (Navigator) - 6 months
-              </h2>
-              <p className="font-light sm:text-lg dark:text-gray-400">
-                After the first workshop you will return to your team(s) and
-                begin to apply what you have learned, however, you will not be
-                alone. You will support and be supported by your learning
-                cohort. Through five monthly group supervision sessions and your
-                own unique commitments to one another, you will ‘navigate’ the
-                specific challenges you face day to day.
-              </p>
+                <p className="font-light sm:text-lg dark:text-gray-400">
+                  In the first workshop you will meet your fellow learning
+                  cohort and ‘explore’ every aspect of what it takes to be a
+                  great Scrum Master. You will work through every aspect of
+                  Geoff Watts RE-TRAINED model and develop your skills to become
+                  more:
+                </p>
+                <ol className="list-disc mx-8 sm:text-lg">
+                  <li>Respected</li>
+                  <li>Enabling</li>
+                  <li>Tactful</li>
+                  <li>Resourceful</li>
+                  <li>Alternative</li>
+                  <li>Inspiring</li>
+                  <li>Nurturing</li>
+                  <li>Empathic</li>
+                  <li>Disruptive</li>
+                </ol>
+              </div>
+              <div className="pb-4">
+                <h2 className="my-2 text-xl tracking-tight font-bold text-gray-900 dark:text-white">
+                  Supported Deliberate Practice (Navigator) - 6 months
+                </h2>
+                <p className="font-light sm:text-lg dark:text-gray-400">
+                  After the first workshop you will return to your team(s) and
+                  begin to apply what you have learned, however, you will not be
+                  alone. You will support and be supported by your learning
+                  cohort. Through five monthly group supervision sessions and
+                  your own unique commitments to one another, you will
+                  ‘navigate’ the specific challenges you face day to day.
+                </p>
+              </div>
+              <div className="pb-4">
               <h2 className="my-2 text-xl tracking-tight font-bold text-gray-900 dark:text-white">
                 Workshop Two (Adventurer) - 2 days
               </h2>
@@ -95,6 +101,7 @@ export const Training = () => {
                 <li>Coach for change</li>
                 <li>Grow a more ORGANIC culture within your organization</li>
               </ol>
+              </div>
               <h2 className="my-2 text-xl tracking-tight font-bold dark:text-white">
                 Lifetime Ticket(s)
               </h2>
