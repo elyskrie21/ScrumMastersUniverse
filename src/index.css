@@ -19,12 +19,6 @@
   background-attachment: fixed;
   background-size: cover;
 }
-.intro {
-  background: url("https://live.staticflickr.com/65535/53083392065_0bdbb18a5b_h.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
 
 .secondary-header {
   background: url("https://live.staticflickr.com/65535/53082419997_e9501e9881_o.png");

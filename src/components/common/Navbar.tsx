@@ -9,7 +9,7 @@ export const NavBar = () => {
   const navigation = [
     { name: "Home", href: "/" },
     { name: "Training", href: "/training" },
-    { name: "Events", href: "http://bit.ly/smotu-meetup" },
+    { name: "Course Schedule", href: "/courses" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];

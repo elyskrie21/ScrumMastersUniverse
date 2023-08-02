@@ -155,25 +155,21 @@ export const Training = () => {
             Scrum Mastery Pathway
           </h1>
           <div className="flex justify-center">
-            <div className="text-center border my-8 grid grid-cols-4 gap-8 p-4 md:rounded-full">
+            <div className="text-center border my-8 grid grid-cols-3 gap-8 p-4 md:rounded-full">
               <div>
                 <p>Upcoming</p>
                 <p>Cohort 1</p>
               </div>
               <div>
-                <p>Dates</p>
+                <p>Date</p>
                 <p>September 30, 2023</p>
               </div>
 
-              <div px-4>
+              <div className="pr-8">
                 <p>Payment Deadline</p>
                 <p>September 29, 2023</p>
               </div>
-              <div>
-                <p className="sm:text-xl">cost</p>
-                <p>$1500</p>
-              </div>
-            </div>
+           </div>
           </div>
           <div className="flex justify-center mb-8">
             <a

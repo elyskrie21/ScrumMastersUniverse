@@ -46,7 +46,7 @@ export const About = () => {
                     Profesional Scrum Master
                   </p>
                   <p className="text-base font-bold ">
-                    Primary Trainer
+                    Licensed Guide
                   </p>
                 </div>
                 <div className=" mx-auto pt-8 px-4 text-gray-600">
@@ -64,12 +64,7 @@ export const About = () => {
                     />
                   </a>
                 </div>
-                <div className="flex flex-col items-center text-center justify-center">
-                  <h2 className="title-font font-bold mt-4  text-2xl">
-                    Certified
-                  </h2>
-                </div>
-              </div>
+               </div>
               <div className=" sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center md:col-span-4 lg:col-span-4 sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
                   I’m Jamie Kriegel, a dynamic Agile advocate, mentor, and

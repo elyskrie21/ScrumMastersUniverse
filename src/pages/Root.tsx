@@ -13,7 +13,7 @@ export const Root = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
-      <section className="bg-center bg-no-repeat intro bg-blend-multiply">
+      <section className="bg-cover bg-right bg-no-repeat bg-intro  md:bg-center">
         <div className="px-4 w-full mx-auto max-w-screen-xl text-center py-32 lg:py-56">
         </div>
       </section>
@@ -159,7 +159,7 @@ export const Root = () => {
                 OUR LEADERSHIP TEAM
               </h1>
             </div>
-            <div className="flex flex-wrap -m-4 justify-center ">
+            <div className="flex flex-wrap m-4 justify-center">
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                   <a
@@ -259,40 +259,7 @@ export const Root = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-4 lg:w-1/2">
-                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53085481815_dcc77dc19e.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
-                  <div className="flex-grow sm:pl-8">
-                    <h2 className="title-font font-medium text-lg text-gray-900">
-                      Ramya Shastri
-                    </h2>
-                    <h3 className="text-gray-500 mb-3">
-                      Professional Scrum Master
-                    </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="p-4 lg:w-1/2">
+             <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                   <a
                     data-flickr-embed="true"
@@ -424,6 +391,7 @@ export const Root = () => {
                   </div>
                 </div>
               </div>
+              <div className="lg:w-1/2"></div>
             </div>
           </div>
         </section>

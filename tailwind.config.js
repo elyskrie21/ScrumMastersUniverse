@@ -33,6 +33,8 @@ export default {
           "url('https://live.staticflickr.com/65535/53083483233_9a55507c37_h.jpg')",
         "wizard":
           "url('https://live.staticflickr.com/65535/53082419997_e9501e9881_o.png')",
+        "intro":
+          "url('https://live.staticflickr.com/65535/53083392065_0bdbb18a5b_h.jpg')",
       },
     },
     fontFamily: {
