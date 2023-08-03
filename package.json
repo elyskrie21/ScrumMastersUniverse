@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
     "axios": "^1.4.0",
@@ -42,3 +43,4 @@
     "vite": "^4.4.5"
   }
 }
+
