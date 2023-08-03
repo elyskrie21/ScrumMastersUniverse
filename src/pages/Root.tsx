@@ -35,7 +35,7 @@ export const Root = () => {
           </div>
         </section>
 
-        <section className="my-24 dark:bg-gray-900">
+        <section className="mt-24 dark:bg-gray-900">
           <div className="mx-auto max-w-screen-xl text-center mb-8 lg:mb-12">
             <div className="my-8 mt-10 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
               <div className="mx-auto max-w-screen-md text-center px-4 mb-8 lg:text-left md:px-0 lg:mb-12">
@@ -78,25 +78,16 @@ export const Root = () => {
           </div>
         </section>
 
-        <section className="my-24 dark:bg-gray-900">
-          <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-            <a
-              data-flickr-embed="true"
-              href="https://www.flickr.com/photos/198849856@N02/53085690248/in/dateposted/"
-              title="xconvert.com"
-            >
-              <img
-                src="https://live.staticflickr.com/65535/53085690248_d60b99272e_o.png"
-                width="600"
-                height="600"
-                alt="xconvert.com"
-              />
-            </a>
-            <script
-              async
-              src="//embedr.flickr.com/assets/client-code.js"
-            >
-            </script>{" "}
+        <section className="md:my-24 dark:bg-gray-900">
+          <div className="gap-8 items-center  px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6">
+            <img
+              src="https://live.staticflickr.com/65535/53085690248_d60b99272e_o.png"
+              className="mx-auto"
+            
+              width="600"
+              height="600"
+              alt="xconvert.com"
+            />
             <div className="mt-4 md:mt-0">
               <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Get Involved
@@ -259,7 +250,7 @@ export const Root = () => {
                   </div>
                 </div>
               </div>
-             <div className="p-4 lg:w-1/2">
+              <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                   <a
                     data-flickr-embed="true"
