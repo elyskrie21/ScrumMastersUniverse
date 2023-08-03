@@ -32,7 +32,7 @@ export const CourseSchedule = () => {
       <section>
         <div className="flex justify-center py-16">
           <h1 className="text-2xl font-bold">
-            Our <span className="text-red-500">Course Schdule</span>
+            Our <span className="text-red-500">Course Schedule</span>
           </h1>
         </div>
        {events?.events.map((value, index) => (
