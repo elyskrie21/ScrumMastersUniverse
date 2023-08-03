@@ -343,18 +343,19 @@ export const About = () => {
                   "I'm looking forward to the influence Jamie will have in
                   bringing craft and mastery to members of our agile community."
                 </p>
+<p className="pt-2"> Bob Galen's Endorsement of AMI's Pathway Program: <span> <a
+                  className="text-gray-500 hover:underline"
+                  href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
+                  target="_blank"
+                >Beyond the Agile Certification Alphabet Soup)</a></span></p>
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Bob Galen
                 </h2>
-                <a
-                  className="text-gray-500 hover:underline"
-                  href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
-                  target="_blank"
-                >
+           
                   Best Selling Author of "Extraordinarily Badass Agile Coaching:
                   The Journey from Beginner to Mastery and Beyond
-                </a>
+                
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
