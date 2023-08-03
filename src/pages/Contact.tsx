@@ -1,7 +1,57 @@
+import { FormEvent, useRef, useState } from "react";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
+  const form = useRef(null);
+  const [message, setMessage] = useState(""); 
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  
+  const setTextMessage = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setMessage(e.target.value)
+  }
+
+  const setNewName = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setName(e.target.value)
+  }
+
+  const setNewEmail = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(e.target.value)
+  }
+
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (form.current) {
+      if (!message || !name || !email) {
+        toast.error("Enter all fields")
+        return;
+      }
+      emailjs
+        .sendForm(
+          "contact_service",
+          "template_20851p7",
+          form.current,
+          "j2AI_o6wvqhpXUMPz"
+        )
+        .then(
+          (result) => {
+            if (result.status == 200) {
+            toast.success("Email successfully sent!")
+            } else {
+              toast.error("Email not sent :(")
+            }
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
+  };
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
@@ -22,15 +72,14 @@ export const Contact = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95523.66026231337!2d-93.68891621762076!3d41.566768974865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee99a4c1611ee7%3A0x710028512691e4b2!2sDes%20Moines%2C%20IA!5e0!3m2!1sen!2sus!4v1690868609993!5m2!1sen!2sus"
               width="100%"
               height="100%"
-            >
-            </iframe>
+            ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
                 <a className="text-purple-500 leading-relaxed">
-                  example@email.com
+                  info@scrummastersoftheuniverse.org
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
@@ -46,52 +95,58 @@ export const Contact = () => {
             <p className="leading-relaxed mb-5 text-gray-600">
               Need to contact us? Use the form below.
             </p>
-            <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-600">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                htmlFor="email"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                htmlFor="message"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              >
-              </textarea>
-            </div>
-            <button className="text-white bg-primary-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
-              Send
-            </button>
-            <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
-            </p>
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="name"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  onChange={setNewName}
+                  className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  onChange={setNewEmail}
+                  className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="message"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  onChange={setTextMessage}
+                  className="w-full bg-white rounded border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                ></textarea>
+              </div>
+              <button className="text-white bg-primary-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+                Send
+              </button>
+            </form>
+          </div>
+          <div>
+            <ToastContainer />
           </div>
         </div>
       </section>
@@ -99,3 +154,4 @@ export const Contact = () => {
     </div>
   );
 };
+
