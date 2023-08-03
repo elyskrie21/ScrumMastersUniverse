@@ -37,17 +37,12 @@ export const About = () => {
                   <h2 className="title-font font-bold mt-4  text-2xl">
                     Jamie Kriegel
                   </h2>
-                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4">
-                  </div>
-                  <p className="text-base font-bold mb-4">
-                    Founder of SMOTU
-                  </p>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <p className="text-base font-bold mb-4">Founder of SMOTU</p>
                   <p className="text-base font-bold mb-4">
                     Profesional Scrum Master
                   </p>
-                  <p className="text-base font-bold ">
-                    Licensed Guide
-                  </p>
+                  <p className="text-base font-bold ">Licensed Guide</p>
                 </div>
                 <div className=" mx-auto pt-8 px-4 text-gray-600">
                   <a
@@ -144,11 +139,8 @@ export const About = () => {
                   <h2 className="title-font font-bold mt-4  text-2xl">
                     Also Certified In
                   </h2>
-                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4">
-                  </div>
-                  <p className="text-base font-bold mb-4">
-                    Scrum.org
-                  </p>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <p className="text-base font-bold mb-4">Scrum.org</p>
                   <div className="flex flex-wrap justify-center gap-3 align-center">
                     <a
                       data-flickr-embed="true"
@@ -299,9 +291,7 @@ export const About = () => {
                       />
                     </a>
                   </div>
-                  <p className="text-base pt-8 font-bold mb-4">
-                    ICAgile
-                  </p>
+                  <p className="text-base pt-8 font-bold mb-4">ICAgile</p>
                   <div className="flex flex-wrap justify-center gap-3 align-center">
                     <a
                       data-flickr-embed="true"
@@ -353,15 +343,18 @@ export const About = () => {
                   "I'm looking forward to the influence Jamie will have in
                   bringing craft and mastery to members of our agile community."
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
-                </span>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Bob Galen
                 </h2>
-                <p className="text-gray-500">
+                <a
+                  className="text-gray-500 hover:underline"
+                  href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
+                  target="_blank"
+                >
                   Best Selling Author of "Extraordinarily Badass Agile Coaching:
                   The Journey from Beginner to Mastery and Beyond
-                </p>
+                </a>
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -380,8 +373,7 @@ export const About = () => {
                   around the country. It's amazing to see her passion for this
                   industry and benefit from her leadership in this space."
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
-                </span>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Danny Presten
                 </h2>
@@ -405,8 +397,7 @@ export const About = () => {
                   and began implementing processes to ensure the success of the
                   team. I can’t speak highly enough of her and her ability."
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
-                </span>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Sydney Dingman
                 </h2>
