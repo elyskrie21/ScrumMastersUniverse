@@ -347,7 +347,7 @@ export const About = () => {
                   className="text-gray-500 hover:underline"
                   href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
                   target="_blank"
-                >Beyond the Agile Certification Alphabet Soup)</a></span></p>
+                >Beyond the Agile Certification Alphabet Soup</a></span></p>
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Bob Galen
