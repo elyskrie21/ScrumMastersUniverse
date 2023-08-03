@@ -19,8 +19,8 @@ export const Root = () => {
       </section>
 
       <div className="gradient">
-        <section className="dark:bg-gray-900">
-          <div className="py-24 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <section >
+          <div className="pt-24 pb-6  px-4 mx-auto max-w-screen-xl lg:px-6">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12 h-64">
               <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Unleash your Agile might and join the ranks of the Scrum Masters
@@ -35,9 +35,9 @@ export const Root = () => {
           </div>
         </section>
 
-        <section className="mt-24 dark:bg-gray-900">
+        <section className=" dark:bg-gray-900 ">
           <div className="mx-auto max-w-screen-xl text-center mb-8 lg:mb-12">
-            <div className="my-8 mt-10 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <div className="mt-10 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
               <div className="mx-auto max-w-screen-md text-center px-4 mb-8 lg:text-left md:px-0 lg:mb-12">
                 <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Core Values
