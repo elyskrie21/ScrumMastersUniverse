@@ -64,7 +64,7 @@ export const About = () => {
                     />
                   </a>
                 </div>
-               </div>
+              </div>
               <div className=" sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center md:col-span-4 lg:col-span-4 sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
                   I’m Jamie Kriegel, a dynamic Agile advocate, mentor, and
@@ -336,6 +336,86 @@ export const About = () => {
           </div>
         </div>
       </section>{" "}
+      <section className="text-gray-600 body-font">
+        <div className="flex justify-center">
+          <h1 className="font-extrabold text-3xl">Testimonials</h1>
+        </div>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div className="h-full text-center">
+                <img
+                  className="h-48 mb-8 object-cover object-center rounded-full inline-block "
+                  src="https://live.staticflickr.com/65535/53090121254_7e6aae9c34_n.jpg"
+                  alt="Bob Galen Cropped"
+                />
+                <p className="leading-relaxed">
+                  "I'm looking forward to the influence Jamie will have in
+                  bringing craft and mastery to members of our agile community."
+                </p>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
+                </span>
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
+                  Bob Galen
+                </h2>
+                <p className="text-gray-500">
+                  Best Selling Author of "Extraordinarily Badass Agile Coaching:
+                  The Journey from Beginner to Mastery and Beyond
+                </p>
+              </div>
+            </div>
+            <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div className="h-full text-center">
+                <img
+                  className="h-48 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                  src="https://live.staticflickr.com/65535/53090146624_88aa2e8695_n.jpg"
+                  alt="1645208998187"
+                />
+                <p className="leading-relaxed">
+                  "I had the privilege of getting to partner with Jamie as she
+                  launched a Scrum Master community meetup. She has done an
+                  amazing job creating one of the premiere scrum master meetups
+                  in the country. She tirelessly works to get incredible
+                  speakers that are helping to develop 100s of scrum masters
+                  around the country. It's amazing to see her passion for this
+                  industry and benefit from her leadership in this space."
+                </p>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
+                </span>
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
+                  Danny Presten
+                </h2>
+                <p className="text-gray-500">
+                  Industrial and Systems Engineer, Experienced Agilist,
+                  Innovation and Improvement Guide, Community Builder
+                </p>
+              </div>
+            </div>
+            <div className="lg:w-1/3 lg:mb-0 p-4">
+              <div className="h-full text-center">
+                <img
+                  className="w-100 h-100 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                  src="https://live.staticflickr.com/65535/53090429148_61301b5654_o.jpg"
+                  alt="1607719925845"
+                />
+                <p className="leading-relaxed">
+                  "Jamie came into this team to establish scrum processes and
+                  help to unite the scrum team with client goals and vision.
+                  Immediately, she had the full team onboard with her leadership
+                  and began implementing processes to ensure the success of the
+                  team. I can’t speak highly enough of her and her ability."
+                </p>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
+                </span>
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
+                  Sydney Dingman
+                </h2>
+                <p className="text-gray-500">Program Manager at Evergreen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   );
