@@ -144,9 +144,9 @@ export const Root = () => {
         </section>
 
         <section className="body-font max-w-screen-xl mx-auto">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 pt-24  md:py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="text-2xl font-bold title-font mb-4 text-gray-900 tracking-widest">
+              <h1 className="text-2xl font-bold title-font  text-gray-900 tracking-widest">
                 OUR LEADERSHIP TEAM
               </h1>
             </div>
