@@ -8,8 +8,8 @@ export const EventCard = (props: { data: Event }) => {
       <div>
         <img
           alt="Guitar"
-          src={event.logo.original.url}
-          className="md:w-full lg:h-64"
+          src={event.images.header}
+          className="md:w-96"
         />
       </div>
 
@@ -17,16 +17,16 @@ export const EventCard = (props: { data: Event }) => {
         <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
           <a href="#">
             <h3 className="font-bold uppercase text-gray-900">
-              {event.name.text}
+              {event.name}
             </h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-lg text-gray-700">
             {dateFormat(
-              new Date(event.start.local),
+              new Date(event.start.date),
               "mmm dS, yyyy @ h:MM:ss TT",
             )} - {dateFormat(
-              new Date(event.end.local),
+              new Date(event.end.date),
               "mmm dS, yyyy @ h:MM:ss TT",
             )}
           </p>
@@ -34,7 +34,7 @@ export const EventCard = (props: { data: Event }) => {
           <p className="mt-2 text-lg ">
             Hosted by Jamie Kriegel
           </p>
-          <p className="hidden mt-2  text-lg">{event.summary}</p>
+          <p className="hidden mt-2  text-lg">{event.description}</p>
           <div className="flex gap-3 pt-4">
             <a
               className="inline-flex items-center gap-2 rounded border border-red-600 bg-red-600 px-8 py-3 text-white hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500"
@@ -58,6 +58,17 @@ export const EventCard = (props: { data: Event }) => {
                 />
               </svg>
             </a>
+            <button
+              onClick={() => {
+                // @ts-ignore
+                TTWidget.loadEvent('scrummastersoftheuniverse',977996);
+              }}
+            >
+              <img
+                src="https://app.tickettailor.com/images/btns/bt_wh.gif"
+                alt="Buy tickets"
+              />
+            </button>
           </div>
         </div>
       </div>

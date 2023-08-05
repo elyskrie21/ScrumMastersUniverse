@@ -1,20 +1,22 @@
-import axios from "axios"
+import axios from "axios";
 
 export const getEvents = async () => {
-  const config = {
+  let config = {
     method: "get",
     maxBodyLength: Infinity,
-    url:
-      "https://www.eventbriteapi.com/v3/organizations/1594811446583/events/?status=live",
+    url: "https://api.tickettailor.com/v1/events?status=published",
     headers: {
-      "Authorization": `Bearer ${import.meta.env.VITE_EVENTBRITE_API_KEY}`,
+      "Accept": "application/json",
+      "Authorization":
+        "Basic c2tfMzk0Ml8xNTI1ODRfOTAwZTUzNjUzMWU3YjAxMTg4MGEwNzNkNzViNjdhZjk6",
     },
   };
 
   try {
-    const {data}= await axios.request(config);
+    const { data } = await axios.request(config);
     return data;
   } catch (error) {
     console.log(error);
   }
 };
+
