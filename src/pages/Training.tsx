@@ -1,11 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 import { MdKeyboardArrowUp, MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { getEvents } from "../api/eventbrite";
+import { Event, TicketTailorEvents } from "../interfaces/event.interface";
+import dateFormat from "dateformat";
 export const Training = () => {
   const [faqNum, setFaqNum] = useState(0);
+  const [event, setEvent] = useState<Event | undefined>();
+
+  useEffect(() => {
+    const getData = async () => {
+      const res: TicketTailorEvents | undefined = await getEvents();
+
+      if (res && res.data.length > 0) {
+        const e = res.data.at(0);
+        setEvent(e);
+      }
+    };
+
+    getData();
+  }, []);
   return (
     <div className=" max-w-screen-2xl mx-auto ">
       <NavBar />
@@ -81,26 +98,26 @@ export const Training = () => {
                 </p>
               </div>
               <div className="pb-4">
-              <h2 className="my-2 text-xl tracking-tight font-bold text-gray-900 dark:text-white">
-                Workshop Two (Adventurer) - 2 days
-              </h2>
-              <p className="font-light sm:text-lg dark:text-gray-400">
-                After six months of hands-on practice and group supervision you
-                will return for another two-day workshop. Here you will be
-                provided with more, and deeper, theory and guided practice to
-                prepare you for your future ‘adventures’ as a great Scrum
-                Master. Your Scrum Mastery skills will be taken to another level
-                and learn how to:
-              </p>
-              <ol className="list-disc mx-8 sm:text-lg">
-                <li>Build a psychologically-safe culture</li>
-                <li>Serve yourself so you can serve others</li>
-                <li>Master the power of silence</li>
-                <li>Tackle your cognitive biases</li>
-                <li>Keep a sense of togetherness even when apart</li>
-                <li>Coach for change</li>
-                <li>Grow a more ORGANIC culture within your organization</li>
-              </ol>
+                <h2 className="my-2 text-xl tracking-tight font-bold text-gray-900 dark:text-white">
+                  Workshop Two (Adventurer) - 2 days
+                </h2>
+                <p className="font-light sm:text-lg dark:text-gray-400">
+                  After six months of hands-on practice and group supervision
+                  you will return for another two-day workshop. Here you will be
+                  provided with more, and deeper, theory and guided practice to
+                  prepare you for your future ‘adventures’ as a great Scrum
+                  Master. Your Scrum Mastery skills will be taken to another
+                  level and learn how to:
+                </p>
+                <ol className="list-disc mx-8 sm:text-lg">
+                  <li>Build a psychologically-safe culture</li>
+                  <li>Serve yourself so you can serve others</li>
+                  <li>Master the power of silence</li>
+                  <li>Tackle your cognitive biases</li>
+                  <li>Keep a sense of togetherness even when apart</li>
+                  <li>Coach for change</li>
+                  <li>Grow a more ORGANIC culture within your organization</li>
+                </ol>
               </div>
               <h2 className="my-2 text-xl tracking-tight font-bold dark:text-white">
                 Lifetime Ticket(s)
@@ -154,27 +171,28 @@ export const Training = () => {
           <h1 className="flex justify-center text-3xl text-extrabold">
             Scrum Mastery Pathway
           </h1>
-          <div className="flex justify-center">
-            <div className="text-center border my-8 grid grid-cols-3 gap-8 p-4 md:rounded-full">
-              <div>
-                <p>Upcoming</p>
-                <p>Cohort 1</p>
-              </div>
-              <div>
-                <p>Date</p>
-                <p>September 30, 2023</p>
-              </div>
-
-              <div className="pr-8">
-                <p>Payment Deadline</p>
-                <p>September 29, 2023</p>
-              </div>
-           </div>
+          <div className="flex flex-col justify-center w-2/3 mx-auto text-center border my-8  gap-8 p-4 md:flex-row md:rounded-full">
+            <div>
+              <p className="font-bold">Upcoming</p>
+              <p className="text-sm">{event?.name}</p>
+            </div>
+            <div>
+              <p className="font-bold">Date</p>
+              <p className="text-sm">{dateFormat(event?.start.date)}</p>
+            </div>
+            <div>
+              <p className="font-bold">Price</p>
+              <p className="text-sm">${event?.ticket_types.at(0)?.price}</p>
+            </div>
+            <div>
+              <p className="font-bold">Tickets Available</p>
+              <p className="text-sm">{event?.ticket_types.at(0)?.quantity}</p>
+            </div>
           </div>
           <div className="flex justify-center mb-8">
             <a
               className="inline-block rounded border px-12 py-3 text-sm font-medium  hover:text-white focus:outline-none focus:ring hover:scale-125"
-              href="https://www.eventbrite.com/e/scrum-mastery-pathway-tickets-688578977257"
+              href={event?.url}
               target="_blank"
             >
               Enroll Today

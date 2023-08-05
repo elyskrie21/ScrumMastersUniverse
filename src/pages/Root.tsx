@@ -19,7 +19,7 @@ export const Root = () => {
       </section>
 
       <div className="gradient">
-        <section >
+        <section>
           <div className="pt-24 pb-6  px-4 mx-auto max-w-screen-xl lg:px-6">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12 h-64">
               <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -83,7 +83,6 @@ export const Root = () => {
             <img
               src="https://live.staticflickr.com/65535/53085690248_d60b99272e_o.png"
               className="mx-auto"
-            
               width="600"
               height="600"
               alt="xconvert.com"
@@ -153,24 +152,13 @@ export const Root = () => {
             <div className="flex flex-wrap m-4 justify-center">
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
+                    width="600"
+                    height="800"
+                    alt="Maco&#x27;s image"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Jamie Kriegel
@@ -186,24 +174,13 @@ export const Root = () => {
               </div>
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53083392535_679223d590_w.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53083392535_679223d590_w.jpg"
+                    width="600"
+                    height="800"
+                    alt="Maco&#x27;s image"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Mark Metze
@@ -219,24 +196,13 @@ export const Root = () => {
               </div>
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53083183209_ffafb39c12_w.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53083183209_ffafb39c12_w.jpg"
+                    width="600"
+                    height="800"
+                    alt="Maco&#x27;s image"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Anuradha Aravindh Raj
@@ -252,24 +218,13 @@ export const Root = () => {
               </div>
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53085674708_c825ccfa25_n.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53085674708_c825ccfa25_n.jpg"
+                    width="600"
+                    height="800"
+                    alt="Maco&#x27;s image"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Mary Nogami
@@ -285,24 +240,13 @@ export const Root = () => {
               </div>
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53084488637_27847ef405_c.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53084488637_27847ef405_c.jpg"
+                    width="600"
+                    height="800"
+                    alt="Maco&#x27;s image"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Marco Burville
@@ -318,24 +262,13 @@ export const Root = () => {
               </div>
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53084488637/in/dateposted-public/"
-                    title="Maco&#x27;s image"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53083483128_c22384e339_w.jpg"
-                      width="600"
-                      height="800"
-                      alt="Maco&#x27;s image"
-                    />
-                    <script
-                      async
-                      src="//embedr.flickr.com/assets/client-code.js"
-                    >
-                    </script>
-                  </a>
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53083483128_c22384e339_w.jpg"
+                    width="600"
+                    height="800"
+                    alt="Maco&#x27;s image"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Jeff Colvin
@@ -351,24 +284,13 @@ export const Root = () => {
               </div>
               <div className="p-4 lg:w-1/2">
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53083483258/in/dateposted/"
-                    title="DonnaReynolds"
-                  >
-                    <img
-                      className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                      src="https://live.staticflickr.com/65535/53083483258_efe12f80c4_w.jpg"
-                      width="338"
-                      height="400"
-                      alt="DonnaReynolds"
-                    />
-                  </a>
-                  <script
-                    async
-                    src="//embedr.flickr.com/assets/client-code.js"
-                  >
-                  </script>{" "}
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53083483258_efe12f80c4_w.jpg"
+                    width="338"
+                    height="400"
+                    alt="DonnaReynolds"
+                  />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Donna Reynolds
@@ -423,18 +345,12 @@ export const Root = () => {
                         </Link>{" "}
                         to deliver the Scrum Mastery Pathway ™
                       </p>
-                      <a
-                        data-flickr-embed="true"
-                        href="https://www.flickr.com/photos/198849856@N02/53085666595/in/dateposted/"
-                        title="ami-logo"
-                      >
-                        <img
-                          src="https://live.staticflickr.com/65535/53085666595_4b2f1d3a58_o.png"
-                          width="800"
-                          height="361"
-                          alt="ami-logo"
-                        />
-                      </a>
+                      <img
+                        src="https://live.staticflickr.com/65535/53085666595_4b2f1d3a58_o.png"
+                        width="800"
+                        height="361"
+                        alt="ami-logo"
+                      />
                     </div>
                     <div className="relative pl-9">
                       <dt className="inline text-xl font-semibold text-gray-900">
@@ -457,19 +373,13 @@ export const Root = () => {
                   </dl>
                 </div>
               </div>
-              <a
-                data-flickr-embed="true"
-                href="https://www.flickr.com/photos/198849856@N02/53085414729/in/dateposted/"
-                title="planet"
-              >
-                <img
-                  className="w-full hidden dark:hidden lg:block"
-                  src="https://live.staticflickr.com/65535/53085414729_5420bd3336_o.png"
-                  width="600"
-                  height="600"
-                  alt="planet"
-                />
-              </a>
+              <img
+                className="w-full hidden dark:hidden lg:block"
+                src="https://live.staticflickr.com/65535/53085414729_5420bd3336_o.png"
+                width="600"
+                height="600"
+                alt="planet"
+              />
             </div>
           </div>
         </div>
@@ -478,24 +388,13 @@ export const Root = () => {
         <div className="bg-secondary-100 py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="sm:text-center grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="flex justify-center">
-              <a
-                data-flickr-embed="true"
-                href="https://www.flickr.com/photos/198849856@N02/53085244946/in/dateposted/"
-                title="newsletter"
-              >
-                <img
-                  className="h-64 md:h-full"
-                  src="https://live.staticflickr.com/65535/53085244946_0ae61eb0ac_o.png"
-                  width="600"
-                  height="600"
-                  alt="newsletter"
-                />
-              </a>
-              <script
-                async
-                src="//embedr.flickr.com/assets/client-code.js"
-              >
-              </script>
+              <img
+                className="h-64 md:h-full"
+                src="https://live.staticflickr.com/65535/53085244946_0ae61eb0ac_o.png"
+                width="600"
+                height="600"
+                alt="newsletter"
+              />
             </div>
             <div className="md:col-span-3 px-4">
               <h2 className="font-trifuno mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">

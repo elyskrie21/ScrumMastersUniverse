@@ -4,17 +4,21 @@ import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 import { getEvents } from "../api/eventbrite";
 import { TicketTailorEvents } from "../interfaces/event.interface";
+import { Loader } from "../components/basic/Loader";
 
 export const CourseSchedule = () => {
   const [events, setEvents] = useState<TicketTailorEvents | undefined>();
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const getData = async () => {
+      setLoading(true);
       const res: TicketTailorEvents | undefined = await getEvents();
 
       if (res) {
         setEvents(res);
       }
+      setLoading(false);
     };
 
     getData();
@@ -35,11 +39,17 @@ export const CourseSchedule = () => {
             Our <span className="text-red-500">Course Schedule</span>
           </h1>
         </div>
-       {events?.data.map((value, index) => (
-          <div key={index} className="mx-auto md:w-2/3 pb-16">
-            <EventCard data={value} />
-          </div>
-        ))}
+        {loading
+          ? <Loader />
+          : (
+            <div>
+              {events?.data.map((value, index) => (
+                <div key={index} className="mx-auto md:w-2/3 pb-16">
+                  <EventCard data={value} />
+                </div>
+              ))}
+            </div>
+          )}
       </section>
 
       <Footer />
