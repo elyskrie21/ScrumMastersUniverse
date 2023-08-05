@@ -1,112 +1,98 @@
 
-export interface EventbriteEvent{
-  pagination: Pagination
-  events: Event[]
+export interface TicketTailorEvents {
+  data: Event[]
+  links: Links
 }
 
-interface Pagination {
-  object_count: number
-  page_number: number
-  page_size: number
-  page_count: number
-  has_more_items: boolean
-}
-
-export interface Event {
-  name: Name
-  description: Description
-  url: string
-  vanity_url: string
-  start: Start
-  end: End
-  organization_id: string
-  created: string
-  changed: string
-  published: string
-  capacity: number
-  capacity_is_custom: boolean
-  status: string
-  currency: string
-  listed: boolean
-  shareable: boolean
-  invite_only: boolean
-  online_event: boolean
-  show_remaining: boolean
-  tx_time_limit: number
-  hide_start_date: boolean
-  hide_end_date: boolean
-  locale: string
-  is_locked: boolean
-  privacy_setting: string
-  is_series: boolean
-  is_series_parent: boolean
-  inventory_type: string
-  is_reserved_seating: boolean
-  show_pick_a_seat: boolean
-  show_seatmap_thumbnail: boolean
-  show_colors_in_seatmap_thumbnail: boolean
-  source: string
-  is_free: boolean
-  version: any
-  summary: string
-  facebook_event_id: any
-  logo_id: string
-  organizer_id: string
-  venue_id: any
-  category_id: string
-  subcategory_id: string
-  format_id: string
+export interface Event{
+  object: string
   id: string
-  resource_uri: string
-  is_externally_ticketed: boolean
-  logo: Logo
-}
-
-interface Name {
-  text: string
-  html: string
-}
-
-interface Description {
-  text: string
-  html: string
-}
-
-interface Start {
+  access_code: any
+  call_to_action: string
+  created_at: number
+  currency: string
+  description: string
+  end: End
+  event_series_id: string
+  hidden: string
+  images: Images
+  name: string
+  online_event: string
+  payment_methods: PaymentMethod[]
+  private: string
+  start: Start
+  status: string
+  ticket_groups: any[]
+  ticket_types: TicketType[]
+  tickets_available: string
   timezone: string
-  local: string
-  utc: string
+  total_holds: number
+  total_issued_tickets: number
+  total_orders: number
+  unavailable: string
+  unavailable_status: any
+  url: string
+  venue: Venue
 }
 
 interface End {
+  date: string
+  formatted: string
+  iso: string
+  time: string
   timezone: string
-  local: string
-  utc: string
+  unix: number
 }
 
-interface Logo {
-  crop_mask: CropMask
-  original: Original
+interface Images {
+  header: string
+  thumbnail: string
+}
+
+interface PaymentMethod {
+  external_id: string
   id: string
-  url: string
-  aspect_ratio: string
-  edge_color: string
-  edge_color_set: boolean
+  instructions: any
+  name: any
+  type: string
 }
 
-interface CropMask {
-  top_left: TopLeft
-  width: number
-  height: number
+interface Start {
+  date: string
+  formatted: string
+  iso: string
+  time: string
+  timezone: string
+  unix: number
 }
 
-interface TopLeft {
-  x: number
-  y: number
+interface TicketType {
+  object: string
+  id: string
+  access_code: any
+  booking_fee: number
+  description: string
+  group_id: any
+  max_per_order: number
+  min_per_order: number
+  name: string
+  price: number
+  status: string
+  sort_order: number
+  type: string
+  quantity: number
+  quantity_held: number
+  quantity_issued: number
+  quantity_total: number
 }
 
-interface Original {
-  url: string
-  width: number
-  height: number
+interface Venue {
+  name: string
+  postal_code: any
 }
+
+interface Links {
+  next: any
+  previous: any
+}
+

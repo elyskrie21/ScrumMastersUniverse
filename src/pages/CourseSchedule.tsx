@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { EventCard } from "../components/basic/EventCard";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
-import { EventbriteEvent } from "../interfaces/event.interface";
 import { getEvents } from "../api/eventbrite";
+import { TicketTailorEvents } from "../interfaces/event.interface";
 
 export const CourseSchedule = () => {
-  const [events, setEvents] = useState<EventbriteEvent | undefined>();
+  const [events, setEvents] = useState<TicketTailorEvents | undefined>();
 
   useEffect(() => {
     const getData = async () => {
-      const res: EventbriteEvent | undefined = await getEvents();
+      const res: TicketTailorEvents | undefined = await getEvents();
 
       if (res) {
         setEvents(res);
@@ -35,7 +35,7 @@ export const CourseSchedule = () => {
             Our <span className="text-red-500">Course Schedule</span>
           </h1>
         </div>
-       {events?.events.map((value, index) => (
+       {events?.data.map((value, index) => (
           <div key={index} className="mx-auto md:w-2/3 pb-16">
             <EventCard data={value} />
           </div>
