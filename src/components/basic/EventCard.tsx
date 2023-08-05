@@ -23,10 +23,10 @@ export const EventCard = (props: { data: Event }) => {
 
           <p className="mt-2 line-clamp-3 text-lg text-gray-700">
             {dateFormat(
-              new Date(event.start.date),
+              new Date(event.start.iso),
               "mmm dS, yyyy @ h:MM:ss TT",
             )} - {dateFormat(
-              new Date(event.end.date),
+              new Date(event.end.iso),
               "mmm dS, yyyy @ h:MM:ss TT",
             )}
           </p>
@@ -60,8 +60,9 @@ export const EventCard = (props: { data: Event }) => {
             </a>
             <button
               onClick={() => {
+                const id = event.id.split("_")[1]
                 // @ts-ignore
-                TTWidget.loadEvent('scrummastersoftheuniverse',977996);
+                TTWidget.loadEventOccurrence('scrummastersoftheuniverse', id);
               }}
             >
               <img

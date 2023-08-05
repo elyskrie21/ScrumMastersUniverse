@@ -14,6 +14,7 @@ export const getEvents = async () => {
 
   try {
     const { data } = await axios.request(config);
+
     return data;
   } catch (error) {
     console.log(error);
