@@ -6,6 +6,7 @@ export const getEvents = async () => {
     maxBodyLength: Infinity,
     url: "https://api.tickettailor.com/v1/events?status=published",
     headers: {
+      "Access-Control-Allow-Origin": "*",
       "Accept": "application/json",
       "Authorization":
         "Basic c2tfMzk0Ml8xNTI1ODRfOTAwZTUzNjUzMWU3YjAxMTg4MGEwNzNkNzViNjdhZjk6",
@@ -20,4 +21,3 @@ export const getEvents = async () => {
     console.log(error);
   }
 };
-
