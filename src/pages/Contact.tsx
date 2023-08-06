@@ -4,6 +4,7 @@ import { NavBar } from "../components/common/Navbar";
 import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 
 export const Contact = () => {
   const form = useRef(null);
@@ -56,20 +57,7 @@ export const Contact = () => {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
-
-      <section>
-        <div className="">
-          <img
-            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
-            className="md:hidden"
-          />
-          <img
-            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
-            className="hidden md:block"
-          />
-        </div>
-      </section>
-
+      <SecondaryHeader />
       <section className="bg-white dark:bg-gray-900">
         <div>
           <ToastContainer />

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { getEvents } from "../api/eventbrite";
 import { Event, TicketTailorEvents } from "../interfaces/event.interface";
 import dateFormat from "dateformat";
+import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 export const Training = () => {
   const [faqNum, setFaqNum] = useState(0);
   const [event, setEvent] = useState<Event | undefined>();
@@ -25,19 +26,7 @@ export const Training = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto ">
       <NavBar />
-      <section>
-        <div className="">
-          <img
-            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
-            className="md:hidden"
-          />
-          <img
-            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
-            className="hidden md:block"
-          />
-        </div>
-      </section>
-
+      <SecondaryHeader />
       <section>
         <div className="grid grid-cols-1 gap-4 px-4 lg:grid-cols-12 lg:gap-8 my-8">
           <div className="rounded-lg mx-auto  lg:col-span-7">

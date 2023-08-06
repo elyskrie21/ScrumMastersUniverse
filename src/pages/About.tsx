@@ -1,43 +1,26 @@
 import { Link } from "react-router-dom";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
+import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 
 export const About = () => {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
-      <section>
-        <div className="">
-          <img
-            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
-            className="md:hidden"
-          />
-          <img
-            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
-            className="hidden md:block"
-          />
-        </div>
-      </section>
-
+      <SecondaryHeader />
       <section className="body-font">
         <div className="container px-5 py-16 mx-auto flex flex-col">
           <div className="mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-8 mt-10 ">
               <div className="sm:py-8  md:col-span-2 mx-auto">
                 <div className=" mx-auto px-4  text-gray-600">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
-                    title="jamie-kriegel"
-                  >
-                    <img
+                   <img
                       src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
                       className="md:w-64"
                       width="320"
                       height="319"
                       alt="jamie-kriegel"
                     />
-                  </a>
                 </div>
                 <div className="flex flex-col items-center text-center ">
                   <h2 className="title-font font-trifuno font-bold mt-4  text-2xl">
@@ -52,19 +35,13 @@ export const About = () => {
                   <p className="text-base font-bold ">Licensed Guide</p>
                 </div>
                 <div className=" mx-auto pt-8 px-4 text-gray-600">
-                  <a
-                    data-flickr-embed="true"
-                    href="https://www.flickr.com/photos/198849856@N02/53082988986/in/dateposted/"
-                    title="jamie-kriegel"
-                  >
-                    <img
+                   <img
                       src="https://live.staticflickr.com/65535/53086987867_5bbe892b56_o.png"
                       className="md:w-64"
                       width="320"
                       height="319"
                       alt="jamie-kriegel"
                     />
-                  </a>
                 </div>
               </div>
               <div className=" sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center md:col-span-4 lg:col-span-4 sm:text-left">

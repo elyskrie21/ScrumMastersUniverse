@@ -5,6 +5,7 @@ import { NavBar } from "../components/common/Navbar";
 import { getEvents } from "../api/eventbrite";
 import { TicketTailorEvents } from "../interfaces/event.interface";
 import { Loader } from "../components/basic/Loader";
+import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 
 export const CourseSchedule = () => {
   const [events, setEvents] = useState<TicketTailorEvents | undefined>();
@@ -26,19 +27,7 @@ export const CourseSchedule = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
-      <section>
-        <div className="">
-          <img
-            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
-            className="md:hidden"
-          />
-          <img
-            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
-            className="hidden md:block"
-          />
-        </div>
-      </section>
-
+      <SecondaryHeader />
       <section>
         <div className="flex justify-center py-16">
           <h1 className="font-trifuno text-2xl font-bold">

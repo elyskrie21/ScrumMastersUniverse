@@ -1,3 +1,4 @@
+import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 import {
@@ -13,16 +14,7 @@ export const Root = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
-      <section>
-        <div>
-          <img
-            src="https://live.staticflickr.com/65535/53098366291_e074fb5845_k.jpg"
-            width="2000"
-            height="450"
-            alt="BannerCompressed"
-          />
-        </div>
-      </section>
+      <SecondaryHeader />
       <div className="gradient">
         <section>
           <div className="pt-24 pb-6  px-4 mx-auto max-w-screen-xl lg:px-6">

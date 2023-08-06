@@ -1,3 +1,4 @@
+import { SecondaryHeader } from "../components/basic/SecondaryHeader";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 
@@ -5,19 +6,7 @@ export const Confirmation = () => {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
-      <section>
-        <div className="">
-          <img
-            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
-            className="md:hidden"
-          />
-          <img
-            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
-            className="hidden md:block"
-          />
-        </div>
-      </section>
-
+      <SecondaryHeader />
       <section className="body-font text-center py-16 w-1/2 mx-auto">
         <div className="mb-4">
           <h1 className="font-bold font-trifuno text-2xl">
