@@ -11,6 +11,25 @@
       url("./assets/trifunoheavy-webfont.woff") format("woff"),
       url("./assets/trifunoheavy-webfont.woff2") format("woff2");
   }
+
+  @font-face {
+    font-family: calibri;
+    font-weight: normal;
+    font-style: normal;
+    src: url("./assets/calibri-font-family/calibri-regular.ttf");
+  }
+  @font-face {
+    font-family: calibri;
+    font-weight: 300;
+    font-style: normal;
+    src: url("./assets/calibri-font-family/calibri-regular.ttf");
+  }
+  @font-face {
+    font-family: calibri;
+    font-weight: bold;
+    font-style: normal;
+    src: url("./assets/calibri-font-family/calibri-bold.ttf");
+  }
 }
 
 .gradient {

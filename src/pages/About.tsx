@@ -8,7 +8,7 @@ export const About = () => {
       <NavBar />
       <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
         <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
+          <h1 className="font-trifuno mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
             About
           </h1>
         </div>
@@ -34,7 +34,7 @@ export const About = () => {
                   </a>
                 </div>
                 <div className="flex flex-col items-center text-center ">
-                  <h2 className="title-font font-bold mt-4  text-2xl">
+                  <h2 className="title-font font-trifuno font-bold mt-4  text-2xl">
                     Jamie Kriegel
                   </h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
@@ -136,7 +136,7 @@ export const About = () => {
               </div>
               <div className="text-center px-4 md:col-span-6 lg:col-span-2  md:col-span-2 mx-auto ">
                 <div className="flex flex-col items-center text-center justify-center ">
-                  <h2 className="title-font font-bold mt-4  text-2xl">
+                  <h2 className="title-font font-trifuno font-bold mt-4  text-2xl">
                     Also Certified In
                   </h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
@@ -326,9 +326,9 @@ export const About = () => {
           </div>
         </div>
       </section>{" "}
-      <section className="text-gray-600 body-font">
+      <section className="body-font">
         <div className="flex justify-center">
-          <h1 className="font-extrabold text-3xl">Testimonials</h1>
+          <h1 className="font-trifuno font-extrabold text-3xl">Testimonials</h1>
         </div>
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
@@ -344,7 +344,7 @@ export const About = () => {
                   bringing craft and mastery to members of our agile community."
                 </p>
 <p className="pt-2"> Bob Galen's Endorsement of AMI's Pathway Program: <span> <a
-                  className="text-gray-500 hover:underline"
+                  className="text-primary-600 hover:underline"
                   href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
                   target="_blank"
                 >Beyond the Agile Certification Alphabet Soup</a></span></p>

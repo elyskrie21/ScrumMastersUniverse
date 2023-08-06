@@ -26,7 +26,7 @@ export const Root = () => {
                 Unleash your Agile might and join the ranks of the Scrum Masters
                 of the Universe!
               </h2>
-              <p className="font-trifuno mb-10 font-light sm:text-xl dark:text-gray-400 ">
+              <p className="mb-10 font-light sm:text-xl dark:text-gray-400 ">
                 As a global virtual community of Agile professionals, we offer a
                 fortress of collaboration and growth for all those seeking to
                 master their craft.
@@ -35,14 +35,14 @@ export const Root = () => {
           </div>
         </section>
 
-        <section className=" dark:bg-gray-900 ">
+        <section className="dark:bg-gray-900 mx-8">
           <div className="mx-auto max-w-screen-xl text-center mb-8 lg:mb-12">
             <div className="mt-10 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
               <div className="mx-auto max-w-screen-md text-center px-4 mb-8 lg:text-left md:px-0 lg:mb-12">
                 <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   Core Values
                 </h2>
-                <p className="font-trifuno mb-5 font-light sm:text-xl dark:text-gray-400">
+                <p className="mb-5 font-light sm:text-xl dark:text-gray-400">
                   Whether you're a seasoned Scrum Master or just starting your
                   Agile journey, you'll find a place at our table. We are
                   dedicated to supporting all levels of experience and
@@ -54,7 +54,7 @@ export const Root = () => {
                 id="connection"
                 className="flex flex-col p-6 w-full mx-auto max-w-lg text-center justify-center my-8 text-gray-900 ug-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white"
               >
-                <h2 className="font-trifuno mb-4 text-3xl font-bold text-white backdrop-brightness-50">
+                <h2 className="mb-4 text-3xl font-bold text-white backdrop-brightness-50">
                   Connection
                 </h2>
               </div>
@@ -62,7 +62,7 @@ export const Root = () => {
                 id="collaboration"
                 className="flex border-gray-200 w-full justify-center border flex-col p-6 mx-auto my-8 max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white"
               >
-                <h2 className="font-trifuno mb-4 text-3xl font-bold text-white backdrop-brightness-50">
+                <h2 className="mb-4 text-3xl font-bold text-white backdrop-brightness-50">
                   Collaboration
                 </h2>
               </div>
@@ -70,7 +70,7 @@ export const Root = () => {
                 id="community"
                 className="flex flex-col p-6 w-full justify-center mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white"
               >
-                <h3 className="mb-4 font-trifuno text-3xl font-bold text-white backdrop-brightness-50">
+                <h3 className="mb-4 text-3xl font-bold text-white backdrop-brightness-50">
                   Community
                 </h3>
               </div>
@@ -91,7 +91,7 @@ export const Root = () => {
               <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                 Get Involved
               </h2>
-              <p className="font-trifuno mb-6 font-light md:text-lg dark:text-gray-400">
+              <p className="mb-6 font-light md:text-lg dark:text-gray-400">
                 Here, at Scrum Masters of the Universe, you'll connect with a
                 diverse group of Agile enthusiasts from all corners of the world
                 and tap into their collective intelligence to elevate your
@@ -145,7 +145,7 @@ export const Root = () => {
         <section className="body-font max-w-screen-xl mx-auto">
           <div className="container px-5 pt-24  md:py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="text-2xl font-bold title-font  text-gray-900 tracking-widest">
+              <h1 className="font-trifuno text-2xl font-bold title-font  text-gray-900 tracking-widest">
                 OUR LEADERSHIP TEAM
               </h1>
             </div>
@@ -319,7 +319,7 @@ export const Root = () => {
                   <p className="font-trifuno mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     What we provide
                   </p>
-                  <p className="font-trifuno mt-6 text-lg leading-8 ">
+                  <p className="mt-6 text-lg leading-8 ">
                     At the core of Scrum Masters of the Universe's mission lies
                     the commitment to offer high quality services to both
                     individuals and organizations. Whether it's our training,
@@ -333,7 +333,7 @@ export const Root = () => {
                       <dt className="inline text-xl font-semibold text-gray-900">
                         Training: {" "}
                       </dt>
-                      <p className="font-trifuno inline text-lg">
+                      <p className="inline text-lg">
                         Scrum Masters of the Universe LLC is licensed by the
                         {" "}
                         <Link
@@ -356,7 +356,7 @@ export const Root = () => {
                       <dt className="inline text-xl font-semibold text-gray-900">
                         Events: {" "}
                       </dt>
-                      <p className="font-trifuno inline text-lg">
+                      <p className="inline text-lg">
                         <Link
                           to={"https://www.meetup.com/scrum-masters-of-the-universe/"}
                           target="_blank"
@@ -400,7 +400,7 @@ export const Root = () => {
               <h2 className="font-trifuno mb-4 text-3xl tracking-tight font-extrabold text-white sm:text-4xl dark:text-white">
                 Sign up for our newsletter
               </h2>
-              <p className="font-trifuno mx-auto mb-8 max-w-2xl font-light text-white md:mb-12 sm:text-xl dark:text-gray-400">
+              <p className="mx-auto mb-8 max-w-2xl font-light text-white md:mb-12 sm:text-xl dark:text-gray-400">
                 Want to keep up on Scrum Masters of the Universe latest news?
                 Sign up for our Newsletter to be the first to know of new course
                 offerings, Meetup Events and special deals from our amazing

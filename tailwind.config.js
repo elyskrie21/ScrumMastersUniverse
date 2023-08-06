@@ -39,7 +39,8 @@ export default {
     },
     fontFamily: {
       trifuno: "Trifuno Heavy",
-      sans: ["Trifuno Heavy", ...defaultThem.fontFamily.sans],
+      calibri: "calibri", 
+      sans: ["calibri", ...defaultThem.fontFamily.sans],
     },
   },
   plugins: [

@@ -31,7 +31,7 @@ export const Training = () => {
         <div className="grid grid-cols-1 gap-4 px-4 lg:grid-cols-12 lg:gap-8 my-8">
           <div className="rounded-lg mx-auto  lg:col-span-7">
             <div className="pb-8">
-              <h1 className="mb-4 text-4xl tracking-tight font-extrabold uppercase dark:text-white">
+              <h1 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold uppercase dark:text-white">
                 Scrum Mastery Pathway
               </h1>
               <p className="font-light sm:text-lg dark:text-gray-400">
@@ -45,7 +45,7 @@ export const Training = () => {
               </p>
             </div>
             <div className="pb-8 ">
-              <h1 className="my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
+              <h1 className="font-trifuno my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
                 Who is this for?
               </h1>
               <p className="font-light sm:text-lg dark:text-gray-400">
@@ -57,7 +57,7 @@ export const Training = () => {
               </p>
             </div>
             <div>
-              <h1 className="my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
+              <h1 className="font-trifuno my-2 text-3xl tracking-tight font-extrabold  dark:text-white">
                 Pathway Details
               </h1>
               <div className="pb-4">
@@ -168,7 +168,7 @@ export const Training = () => {
       <section className="cohort pt-16 text-white">
         <div className="flex flex-col w-full ">
           <p className="flex justify-center my-2 ">Join An Upcoming Cohort</p>
-          <h1 className="flex justify-center text-3xl text-extrabold">
+          <h1 className="font-trifuno flex justify-center text-3xl text-extrabold">
             Scrum Mastery Pathway
           </h1>
           <div className="flex flex-col justify-center w-2/3 mx-auto text-center border my-8  gap-8 p-4 md:flex-row md:rounded-full">
@@ -203,7 +203,7 @@ export const Training = () => {
       <section className="py-10  sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+            <h2 className="font-trifuno text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
               Frequently Asked Questions
             </h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">

@@ -58,7 +58,7 @@ export const Contact = () => {
       <NavBar />
       <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
         <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
+          <h1 className="font-trifuno mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
             Contact Us
           </h1>
         </div>
@@ -68,7 +68,7 @@ export const Contact = () => {
           <ToastContainer />
         </div>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          <h2 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">

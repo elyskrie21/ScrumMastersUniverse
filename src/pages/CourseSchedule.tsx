@@ -28,14 +28,14 @@ export const CourseSchedule = () => {
       <NavBar />
       <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
         <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
+          <h1 className="font-trifuno mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
             Schedule
           </h1>
         </div>
       </section>
       <section>
         <div className="flex justify-center py-16">
-          <h1 className="text-2xl font-bold">
+          <h1 className="font-trifuno text-2xl font-bold">
             Our <span className="text-red-500">Course Schedule</span>
           </h1>
         </div>
