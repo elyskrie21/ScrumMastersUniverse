@@ -62,11 +62,19 @@ export const Confirmation = () => {
           <p className="font-bold font-trifuno font-xl">
             Points to Note:
           </p>
-          <p className="text-lg">
-            This isn't just about personal growth. By the end, you'll be poised
-            to bring out the best in your teams, leading them to new pinnacles
-            of success.
-          </p>
+          <ol>
+            <li>
+              Secure a reliable internet connection for an uninterrupted
+              experience.
+            </li>
+            <li>
+              Keep your devices ready – especially your microphone and camera.
+            </li>
+            <li>
+              Feel free to embrace the theme – capes, wands, and any magical
+              paraphernalia are heartily welcome, though entirely optional!
+            </li>
+          </ol>
         </div>
       </section>{" "}
       <Footer />
