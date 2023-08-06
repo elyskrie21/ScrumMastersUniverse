@@ -14,9 +14,13 @@ export const Root = () => {
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
       <section>
-        <div className="">
-          <img src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg" className="md:hidden" />
-          <img src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg" className="hidden md:block" />
+        <div>
+          <img
+            src="https://live.staticflickr.com/65535/53098366291_e074fb5845_k.jpg"
+            width="2000"
+            height="450"
+            alt="BannerCompressed"
+          />
         </div>
       </section>
       <div className="gradient">

@@ -34,7 +34,7 @@ export default {
         "wizard":
           "url('https://live.staticflickr.com/65535/53082419997_e9501e9881_o.png')",
         "intro":
-          "url('https://live.staticflickr.com/65535/53098298286_4d19578e95_o.png')",
+          "url('https://live.staticflickr.com/65535/53098725525_fa07f14a69_o.png')",
         "intro-mobile": 
           "url('https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg')"
       },
