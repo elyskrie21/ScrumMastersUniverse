@@ -21,7 +21,7 @@ export const Confirmation = () => {
         <div className="mb-4 text-left">
           <p className="text-lg">
             <span className="font-bold font-trifuno font-xl">
-              The Explorer's Guide:
+              The Explorer's Guide: {" "}
             </span>
             Navigate through the mystical realms of Scrum, unlocking deeper
             insights and practices that remain uncharted to many.
@@ -30,7 +30,7 @@ export const Confirmation = () => {
         <div className="mb-4 text-left">
           <p className="text-lg">
             <span className="font-bold font-trifuno font-xl">
-              Spells of Knowledge:
+              Spells of Knowledge: {" "}
             </span>
             Delve into curated sessions that empower you with techniques and
             skills pivotal to true Scrum Mastery.
@@ -39,7 +39,7 @@ export const Confirmation = () => {
         <div className="mb-4 text-left">
           <p className="text-lg">
             <span className="font-bold font-trifuno font-xl">
-              Transformation Awaits:
+              Transformation Awaits: {" "}
             </span>
             As you journey through this pathway, you'll metamorphose from
             understanding the rudiments to mastering the finesse of Scrum
@@ -49,7 +49,7 @@ export const Confirmation = () => {
         <div className="text-left">
           <p className="text-lg">
             <span className="font-bold font-trifuno font-xl">
-              Ignite Teams with Magic:
+              Ignite Teams with Magic: {" "}
             </span>
             This isn't just about personal growth. By the end, you'll be poised
             to bring out the best in your teams, leading them to new pinnacles
