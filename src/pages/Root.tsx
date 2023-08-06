@@ -166,6 +166,9 @@ export const Root = () => {
                     <p className="mb-4">
                       SMOTU Meetup Leadership Team Member
                     </p>
+                     <p className="mb-4">
+                      Scrum Mastery Pathway Guide
+                    </p>
                   </div>
                 </div>
               </div>
@@ -203,6 +206,51 @@ export const Root = () => {
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
                       Anuradha Aravindh Raj
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <img
+                    src="https://live.staticflickr.com/65535/53085481815_dcc77dc19e_w.jpg"
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    width="300"
+                    height="400"
+                    alt="Ramya Shastri"
+                  />
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Ramya Shastri
+                    </h2>
+                    <h3 className="text-gray-500 mb-3">
+                      Professional Scrum Master
+                    </h3>
+                    <p className="mb-4">
+                      SMOTU Meetup Leadership Team Member
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 lg:w-1/2">
+                <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <img
+                    className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                    src="https://live.staticflickr.com/65535/53097949862_b46582ea49_n.jpg"
+                    width="320"
+                    height="320"
+                    alt="Angela"
+                  />
+
+                  <div className="flex-grow sm:pl-8">
+                    <h2 className="title-font font-medium text-lg text-gray-900">
+                      Angela Spring
                     </h2>
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
