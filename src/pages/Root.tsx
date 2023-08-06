@@ -13,11 +13,12 @@ export const Root = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
-      <section className="bg-cover bg-right bg-no-repeat bg-intro  md:bg-center">
-        <div className="px-4 w-full mx-auto max-w-screen-xl text-center py-32 lg:py-56">
+      <section>
+        <div className="">
+          <img src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg" className="md:hidden" />
+          <img src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg" className="hidden md:block" />
         </div>
       </section>
-
       <div className="gradient">
         <section>
           <div className="pt-24 pb-6  px-4 mx-auto max-w-screen-xl lg:px-6">

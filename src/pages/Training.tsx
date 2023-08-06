@@ -26,7 +26,19 @@ export const Training = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto ">
       <NavBar />
-      <SecondaryHeader />
+      <section>
+        <div className="">
+          <img
+            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
+            className="md:hidden"
+          />
+          <img
+            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
+            className="hidden md:block"
+          />
+        </div>
+      </section>
+
       <section>
         <div className="grid grid-cols-1 gap-4 px-4 lg:grid-cols-12 lg:gap-8 my-8">
           <div className="rounded-lg mx-auto  lg:col-span-7">
@@ -36,9 +48,9 @@ export const Training = () => {
               </h1>
               <p className="font-light sm:text-lg dark:text-gray-400">
                 This is no ordinary training course. Embark on the Scrum Mastery
-                Pathway - Explorer, where we elevate Scrum Masters to Agile
-                Wizards. Navigate mystical realms, harness spells of knowledge,
-                and inspire high-performing teams. From Good to Great, we're
+                Pathway where we elevate Scrum Masters to Agile Wizards.
+                Navigate mystical realms, harness spells of knowledge, and
+                inspire high-performing teams. From Good to Great, we're
                 transforming ordinary Scrum Masters into extraordinary Agile
                 Sorcerers. Don your cape, grab your wand and join us on this
                 spellbinding journey to Scrum Mastery!

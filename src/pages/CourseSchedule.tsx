@@ -26,30 +26,34 @@ export const CourseSchedule = () => {
   return (
     <div className="max-w-screen-2xl mx-auto">
       <NavBar />
-      <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
-        <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
-          <h1 className="font-trifuno mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
-            Schedule
-          </h1>
+      <section>
+        <div className="">
+          <img
+            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
+            className="md:hidden"
+          />
+          <img
+            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
+            className="hidden md:block"
+          />
         </div>
       </section>
+
       <section>
         <div className="flex justify-center py-16">
           <h1 className="font-trifuno text-2xl font-bold">
             Our <span className="text-red-500">Course Schedule</span>
           </h1>
         </div>
-        {loading
-          ? <Loader />
-          : (
-            <div>
-              {events?.data.map((value, index) => (
-                <div key={index} className="mx-auto md:w-2/3 pb-16">
-                  <EventCard data={value} />
-                </div>
-              ))}
-            </div>
-          )}
+        {loading ? <Loader /> : (
+          <div>
+            {events?.data.map((value, index) => (
+              <div key={index} className="mx-auto md:w-2/3 pb-16">
+                <EventCard data={value} />
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       <Footer />

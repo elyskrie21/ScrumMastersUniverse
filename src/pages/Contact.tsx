@@ -2,7 +2,7 @@ import { FormEvent, useRef, useState } from "react";
 import { Footer } from "../components/common/Footer";
 import { NavBar } from "../components/common/Navbar";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
@@ -31,13 +31,13 @@ export const Contact = () => {
         toast.error("Enter all fields");
         return;
       }
-      toast.info("Sending email")
+      toast.info("Sending email");
       emailjs
         .sendForm(
           "contact_service",
           "template_20851p7",
           form.current,
-          "j2AI_o6wvqhpXUMPz"
+          "j2AI_o6wvqhpXUMPz",
         )
         .then(
           (result) => {
@@ -49,20 +49,27 @@ export const Contact = () => {
           },
           (error) => {
             console.log(error.text);
-          }
+          },
         );
     }
   };
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
-      <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
-        <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
-          <h1 className="font-trifuno mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
-            Contact Us
-          </h1>
+
+      <section>
+        <div className="">
+          <img
+            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
+            className="md:hidden"
+          />
+          <img
+            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
+            className="hidden md:block"
+          />
         </div>
       </section>
+
       <section className="bg-white dark:bg-gray-900">
         <div>
           <ToastContainer />
@@ -124,7 +131,8 @@ export const Contact = () => {
                 onChange={setTextMessage}
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                 placeholder="Leave a comment..."
-              ></textarea>
+              >
+              </textarea>
             </div>
             <button
               type="submit"

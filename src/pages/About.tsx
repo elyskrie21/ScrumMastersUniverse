@@ -6,13 +6,19 @@ export const About = () => {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <NavBar />
-      <section className="bg-planets bg-blend-multiply bg-center bg-no-repeat bg-cover">
-        <div className="px-4 mx-auto max-w-screen-2xl text-center py-16">
-          <h1 className="font-trifuno mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-6xl lg:text-7xl">
-            About
-          </h1>
+      <section>
+        <div className="">
+          <img
+            src="https://live.staticflickr.com/65535/53098245539_68c31c5a13_c.jpg"
+            className="md:hidden"
+          />
+          <img
+            src="https://live.staticflickr.com/65535/53098225494_8cf4fa2fe1_h.jpg"
+            className="hidden md:block"
+          />
         </div>
       </section>
+
       <section className="body-font">
         <div className="container px-5 py-16 mx-auto flex flex-col">
           <div className="mx-auto">
@@ -37,7 +43,8 @@ export const About = () => {
                   <h2 className="title-font font-trifuno font-bold mt-4  text-2xl">
                     Jamie Kriegel
                   </h2>
-                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4">
+                  </div>
                   <p className="text-base font-bold mb-4">Founder of SMOTU</p>
                   <p className="text-base font-bold mb-4">
                     Profesional Scrum Master
@@ -139,7 +146,8 @@ export const About = () => {
                   <h2 className="title-font font-trifuno font-bold mt-4  text-2xl">
                     Also Certified In
                   </h2>
-                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4">
+                  </div>
                   <p className="text-base font-bold mb-4">Scrum.org</p>
                   <div className="flex flex-wrap justify-center gap-3 align-center">
                     <a
@@ -343,19 +351,26 @@ export const About = () => {
                   "I'm looking forward to the influence Jamie will have in
                   bringing craft and mastery to members of our agile community."
                 </p>
-<p className="pt-2"> Bob Galen's Endorsement of AMI's Pathway Program: <span> <a
-                  className="text-primary-600 hover:underline"
-                  href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
-                  target="_blank"
-                >Beyond the Agile Certification Alphabet Soup</a></span></p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <p className="pt-2">
+                  Bob Galen's Endorsement of AMI's Pathway Program:{" "}
+                  <span>
+                    <a
+                      className="text-primary-600 hover:underline"
+                      href="https://www.agile-moose.com/blog/2023/4/20/beyond-the-agile-certification-alphabet-soup"
+                      target="_blank"
+                    >
+                      Beyond the Agile Certification Alphabet Soup
+                    </a>
+                  </span>
+                </p>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
+                </span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Bob Galen
                 </h2>
-           
-                  Best Selling Author of "Extraordinarily Badass Agile Coaching:
-                  The Journey from Beginner to Mastery and Beyond
-                
+
+                Best Selling Author of "Extraordinarily Badass Agile Coaching:
+                The Journey from Beginner to Mastery and Beyond
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -374,7 +389,8 @@ export const About = () => {
                   around the country. It's amazing to see her passion for this
                   industry and benefit from her leadership in this space."
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
+                </span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Danny Presten
                 </h2>
@@ -398,7 +414,8 @@ export const About = () => {
                   and began implementing processes to ensure the success of the
                   team. I can’t speak highly enough of her and her ability."
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4">
+                </span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-lg">
                   Sydney Dingman
                 </h2>
