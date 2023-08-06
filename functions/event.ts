@@ -1,7 +1,6 @@
 import { Handler, HandlerContext, HandlerEvent } from "@netlify/functions";
 
 import axios from "axios";
-import { Event } from "./event.interface";
 const handler: Handler = async (
   event: HandlerEvent,
   context: HandlerContext,
@@ -20,7 +19,7 @@ const handler: Handler = async (
   try {
     const { data } = await axios.request(config);
 
-    data.data.sort((a: Event, b: Event) => {
+    data.data.sort((a, b) => {
       const date1 = Date.parse(a.start.iso);
       const date2 = Date.parse(b.start.iso);
       return date1 - date2;

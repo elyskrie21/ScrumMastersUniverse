@@ -194,7 +194,7 @@ export const About = () => {
                     </a>
                     <a
                       data-flickr-embed="true"
-                      href="https://live.staticflickr.com/65535/53087795549_1bbb250861_o.png"
+                      href="https://live.staticflickr.com/65535/53087795549_1bbb250861o.png"
                       title="jamie-kriegel"
                     >
                       <img
