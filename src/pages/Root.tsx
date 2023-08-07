@@ -164,7 +164,8 @@ export const Root = () => {
                       Founder / Primary Trainer
                     </h3>
                     <p className="mb-4">
-                      Scrum Mastery Pathway Guide
+                      <Link className="text-primary-600 hover:underline"to="/training">Scrum Mastery Pathway Guide </Link>
+
                     </p>
                   </div>
                 </div>
