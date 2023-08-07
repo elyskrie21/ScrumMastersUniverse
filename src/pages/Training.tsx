@@ -178,7 +178,9 @@ export const Training = () => {
             </div>
             <div>
               <p className="font-bold">Date</p>
-              <p className="text-sm">{dateFormat(event?.start.date)}</p>
+              <p className="text-sm">
+                {dateFormat(event?.start.date, "mmm dS, yyyy @ h:MM TT")}
+              </p>
             </div>
             <div>
               <p className="font-bold">Price</p>
