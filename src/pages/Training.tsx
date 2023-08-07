@@ -179,7 +179,7 @@ export const Training = () => {
             <div>
               <p className="font-bold">Date</p>
               <p className="text-sm">
-                {dateFormat(event?.start.date, "mmm dS, yyyy @ h:MM TT")}
+                {dateFormat(event?.start.iso, "mmm dS, yyyy @ h:MM TT")}
               </p>
             </div>
             <div>

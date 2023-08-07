@@ -143,7 +143,7 @@ export const Root = () => {
           <div className="container px-5 pt-24  md:py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
               <h1 className="font-trifuno text-2xl font-bold title-font  text-gray-900 tracking-widest">
-                OUR LEADERSHIP TEAM
+                MEETUP LEADERSHIP TEAM
               </h1>
             </div>
             <div className="flex flex-wrap m-4 justify-center">
@@ -164,9 +164,6 @@ export const Root = () => {
                       Founder / Primary Trainer
                     </h3>
                     <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
-                     <p className="mb-4">
                       Scrum Mastery Pathway Guide
                     </p>
                   </div>
@@ -188,9 +185,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -210,9 +204,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -230,11 +221,8 @@ export const Root = () => {
                       Ramya Shastri
                     </h2>
                     <h3 className="text-gray-500 mb-3">
-                      Professional Scrum Master
+                      Enterprise Agile Coach
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -255,9 +243,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -277,9 +262,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -299,9 +281,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Agile Coach/Consultant
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -321,9 +300,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
@@ -343,9 +319,6 @@ export const Root = () => {
                     <h3 className="text-gray-500 mb-3">
                       Professional Scrum Master
                     </h3>
-                    <p className="mb-4">
-                      SMOTU Meetup Leadership Team Member
-                    </p>
                   </div>
                 </div>
               </div>
