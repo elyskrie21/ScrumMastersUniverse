@@ -20,11 +20,20 @@ export const Footer = () => {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://agilemasteryinstitute.com/guide/jamie-kriegel/"
+                      href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view?usp=sharing"
                       className="hover:underline"
                       target="_blank"
                     >
                       Agile Mastery Insitute
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      className="hover:underline"
+                      href="https://youtu.be/SzOpc22BNXM"
+                      target="_blank"
+                    >
+                      Scrum Mastery Pathway Overview
                     </a>
                   </li>
                   <li>
@@ -33,7 +42,7 @@ export const Footer = () => {
                       href="https://agilemasteryinstitute.com/app/uploads/2022/11/Scrum-Mastery-Pathway-Overview.pdf"
                       target="_blank"
                     >
-                      Scrum Mastery Pathway Overview
+                      Meaningful Agile Certification
                     </a>
                   </li>
                 </ul>

@@ -34,6 +34,13 @@ export const Training = () => {
               <h1 className="font-trifuno mb-4 text-4xl tracking-tight font-extrabold uppercase dark:text-white">
                 Scrum Mastery Pathway
               </h1>
+              <a
+                className="font-bold mb-2 text-blue-600 hover:underline"
+                href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view?usp=sharing"
+                target="_blank"
+              >
+                Agile Mastery Institute Brochure
+              </a>
               <p className="font-light sm:text-lg dark:text-gray-400">
                 This is no ordinary training course. Embark on the Scrum Mastery
                 Pathway where we elevate Scrum Masters to Agile Wizards.
@@ -359,11 +366,11 @@ export const Training = () => {
             </Link>{"  "}
             or read the{"   "}
             <a
-              href="https://agilemasteryinstitute.com/app/uploads/2022/11/Scrum-Mastery-Pathway-Overview.pdf"
+              className="mb-2 text-blue-600 hover:underline"
+              href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view?usp=sharing"
               target="_blank"
-              className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
             >
-              Scrum Mastery Pathway Overview
+              Agile Mastery Institute Brochure
             </a>
           </p>
         </div>
