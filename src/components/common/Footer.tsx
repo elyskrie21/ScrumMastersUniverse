@@ -36,13 +36,22 @@ export const Footer = () => {
                       Scrum Mastery Pathway Overview
                     </a>
                   </li>
-                  <li>
+                  <li className="mb-4">
                     <a
                       className="hover:underline"
                       href="https://agilemasteryinstitute.com/app/uploads/2022/11/Scrum-Mastery-Pathway-Overview.pdf"
                       target="_blank"
                     >
                       Meaningful Agile Certification
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="hover:underline"
+                      href="https://agilemasteryinstitute.com/our-scrum-master-courses/"
+                      target="_blank"
+                    >
+                      Our Scrum Master Courses
                     </a>
                   </li>
                 </ul>

@@ -35,13 +35,13 @@ export const Training = () => {
                 Scrum Mastery Pathway
               </h1>
               <a
-                className="font-bold mb-2 text-blue-600 hover:underline"
+                className="font-bold mb-4 text-blue-600 hover:underline"
                 href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view?usp=sharing"
                 target="_blank"
               >
                 Agile Mastery Institute Brochure
               </a>
-              <p className="font-light sm:text-lg dark:text-gray-400">
+              <p className="font-light sm:text-lg mt-2 dark:text-gray-400">
                 This is no ordinary training course. Embark on the Scrum Mastery
                 Pathway where we elevate Scrum Masters to Agile Wizards.
                 Navigate mystical realms, harness spells of knowledge, and
