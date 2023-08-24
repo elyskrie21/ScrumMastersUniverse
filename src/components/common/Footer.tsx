@@ -39,7 +39,7 @@ export const Footer = () => {
                   <li className="mb-4">
                     <a
                       className="hover:underline"
-                      href="https://agilemasteryinstitute.com/app/uploads/2022/11/Scrum-Mastery-Pathway-Overview.pdf"
+                      href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view"
                       target="_blank"
                     >
                       Meaningful Agile Certification
