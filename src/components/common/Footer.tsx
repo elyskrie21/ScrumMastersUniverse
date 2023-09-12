@@ -20,7 +20,7 @@ export const Footer = () => {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view?usp=sharing"
+                      href="https://agilemasteryinstitute.com/"
                       className="hover:underline"
                       target="_blank"
                     >
@@ -30,7 +30,7 @@ export const Footer = () => {
                   <li className="mb-4">
                     <a
                       className="hover:underline"
-                      href="https://youtu.be/SzOpc22BNXM"
+                      href="https://agilemasteryinstitute.com/app/uploads/2023/08/SMP-Brochure-v2.pdf"
                       target="_blank"
                     >
                       Scrum Mastery Pathway Overview
@@ -39,7 +39,7 @@ export const Footer = () => {
                   <li className="mb-4">
                     <a
                       className="hover:underline"
-                      href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view"
+                      href="https://youtu.be/SzOpc22BNXM"
                       target="_blank"
                     >
                       Meaningful Agile Certification

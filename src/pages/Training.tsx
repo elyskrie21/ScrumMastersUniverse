@@ -36,7 +36,7 @@ export const Training = () => {
               </h1>
               <a
                 className="font-bold mb-4 text-blue-600 hover:underline"
-                href="https://drive.google.com/file/d/1tzV3o70EJXoCjOxp7KRUO5uRQVS12ja0/view"
+                href="https://agilemasteryinstitute.com/app/uploads/2023/08/SMP-Brochure-v2.pdf"
                 target="_blank"
               >
                 Agile Mastery Institute Brochure
@@ -166,8 +166,7 @@ export const Training = () => {
                 src="https://www.youtube.com/embed/-GZYX3HJXWk"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              >
-              </iframe>
+              ></iframe>
             </div>
           </div>
         </div>
@@ -223,16 +222,18 @@ export const Training = () => {
           <div className="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
             <div className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
               <button
-                onClick={() => faqNum == 1 ? setFaqNum(0) : setFaqNum(1)}
+                onClick={() => (faqNum == 1 ? setFaqNum(0) : setFaqNum(1))}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
                 <span className="flex text-lg font-semibold text-black">
                   What's with the sorcerer?
                 </span>
-                {faqNum == 1
-                  ? <MdKeyboardArrowUp />
-                  : <MdOutlineKeyboardArrowDown />}
+                {faqNum == 1 ? (
+                  <MdKeyboardArrowUp />
+                ) : (
+                  <MdOutlineKeyboardArrowDown />
+                )}
               </button>
               {faqNum == 1 && (
                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -253,19 +254,48 @@ export const Training = () => {
                 </div>
               )}
             </div>
+            <div className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+              <button
+                onClick={() => (faqNum == 6 ? setFaqNum(0) : setFaqNum(6))}
+                type="button"
+                className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+              >
+                <span className="flex text-lg font-semibold text-black">
+                   How are you different than other certification courses?
+                </span>
+                {faqNum == 1 ? (
+                  <MdKeyboardArrowUp />
+                ) : (
+                  <MdOutlineKeyboardArrowDown />
+                )}
+              </button>
+              {faqNum == 6 && (
+                <div className="px-4 pb-5 sm:px-6 sm:pb-6">
+                  <a
+                    className="font-bold mb-4 text-blue-600 hover:underline"
+                    href="https://agilemasteryinstitute.com/why-are-we-different/"
+                    target="_blank"
+                  >
+                    https://agilemasteryinstitute.com/why-are-we-different/
+                  </a>
+                </div>
+              )}
+            </div>
 
             <div className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
               <button
-                onClick={() => faqNum == 2 ? setFaqNum(0) : setFaqNum(2)}
+                onClick={() => (faqNum == 2 ? setFaqNum(0) : setFaqNum(2))}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
                 <span className="flex text-left text-lg font-semibold text-black">
                   What does the price of the class include?
                 </span>
-                {faqNum == 2
-                  ? <MdKeyboardArrowUp />
-                  : <MdOutlineKeyboardArrowDown />}
+                {faqNum == 2 ? (
+                  <MdKeyboardArrowUp />
+                ) : (
+                  <MdOutlineKeyboardArrowDown />
+                )}
               </button>
               {faqNum == 2 && (
                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -283,7 +313,7 @@ export const Training = () => {
             </div>
             <div className="transition-all duration-200 bg-white shadow-lg border border-gray-200 cursor-pointer hover:bg-gray-50">
               <button
-                onClick={() => faqNum == 3 ? setFaqNum(0) : setFaqNum(3)}
+                onClick={() => (faqNum == 3 ? setFaqNum(0) : setFaqNum(3))}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
@@ -291,9 +321,11 @@ export const Training = () => {
                   Is a refund available if for some reason I can't participate
                   in the Pathway cohort?
                 </span>
-                {faqNum == 3
-                  ? <MdKeyboardArrowUp />
-                  : <MdOutlineKeyboardArrowDown />}
+                {faqNum == 3 ? (
+                  <MdKeyboardArrowUp />
+                ) : (
+                  <MdOutlineKeyboardArrowDown />
+                )}
               </button>
               {faqNum == 3 && (
                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -306,16 +338,18 @@ export const Training = () => {
             </div>
             <div className="transition-all duration-200 bg-white shadow-lg border border-gray-200 cursor-pointer hover:bg-gray-50">
               <button
-                onClick={() => faqNum == 4 ? setFaqNum(0) : setFaqNum(4)}
+                onClick={() => (faqNum == 4 ? setFaqNum(0) : setFaqNum(4))}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
                 <span className="flex text-left text-lg font-semibold text-black">
                   What if I miss a Navigator workshop?
                 </span>
-                {faqNum == 4
-                  ? <MdKeyboardArrowUp />
-                  : <MdOutlineKeyboardArrowDown />}
+                {faqNum == 4 ? (
+                  <MdKeyboardArrowUp />
+                ) : (
+                  <MdOutlineKeyboardArrowDown />
+                )}
               </button>
               {faqNum == 4 && (
                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -332,16 +366,18 @@ export const Training = () => {
             </div>
             <div className="transition-all duration-200 bg-white border shadow-lg border-gray-200 cursor-pointer hover:bg-gray-50">
               <button
-                onClick={() => faqNum == 5 ? setFaqNum(0) : setFaqNum(5)}
+                onClick={() => (faqNum == 5 ? setFaqNum(0) : setFaqNum(5))}
                 type="button"
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
                 <span className="flex text-lg font-semibold text-black">
                   What is Scrum Mastery?
                 </span>
-                {faqNum == 5
-                  ? <MdKeyboardArrowUp />
-                  : <MdOutlineKeyboardArrowDown />}
+                {faqNum == 5 ? (
+                  <MdKeyboardArrowUp />
+                ) : (
+                  <MdOutlineKeyboardArrowDown />
+                )}
               </button>
               {faqNum == 5 && (
                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -363,7 +399,8 @@ export const Training = () => {
               className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
             >
               Contact us
-            </Link>{"  "}
+            </Link>
+            {"  "}
             or read the{"   "}
             <a
               className="mb-2 text-blue-600 hover:underline"
