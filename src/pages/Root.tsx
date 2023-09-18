@@ -151,10 +151,10 @@ export const Root = () => {
                 <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                   <img
                     className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
-                    width="600"
-                    height="800"
-                    alt="Maco&#x27;s image"
+                    src="https://live.staticflickr.com/65535/53197166541_6efe4ef1e9_o.png"
+                    width="1080"
+                    height="1080"
+                    alt="Star Pattern Profile Photo Instagram Post - 1"
                   />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">
@@ -164,8 +164,12 @@ export const Root = () => {
                       Founder / Primary Trainer
                     </h3>
                     <p className="mb-4">
-                      <Link className="text-primary-600 hover:underline"to="/training">Scrum Mastery Pathway Guide </Link>
-
+                      <Link
+                        className="text-primary-600 hover:underline"
+                        to="/training"
+                      >
+                        Scrum Mastery Pathway Guide{" "}
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -350,13 +354,14 @@ export const Root = () => {
                   <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                     <div className="relative pl-9">
                       <dt className="inline text-xl font-semibold text-gray-900">
-                        Training: {" "}
+                        Training:{" "}
                       </dt>
                       <p className="inline text-lg">
-                        Scrum Masters of the Universe LLC is licensed by the
-                        {" "}
+                        Scrum Masters of the Universe LLC is licensed by the{" "}
                         <Link
-                          to={"https://agilemasteryinstitute.com/guide/jamie-kriegel/"}
+                          to={
+                            "https://agilemasteryinstitute.com/guide/jamie-kriegel/"
+                          }
                           target="_blank"
                           className="text-blue-600 transition-all duration-200 hover:underline"
                         >
@@ -373,11 +378,13 @@ export const Root = () => {
                     </div>
                     <div className="relative pl-9">
                       <dt className="inline text-xl font-semibold text-gray-900">
-                        Events: {" "}
+                        Events:{" "}
                       </dt>
                       <p className="inline text-lg">
                         <Link
-                          to={"https://www.meetup.com/scrum-masters-of-the-universe/"}
+                          to={
+                            "https://www.meetup.com/scrum-masters-of-the-universe/"
+                          }
                           target="_blank"
                           className="text-red-500 font-bold hover:underline"
                         >
