@@ -15,7 +15,7 @@ export const About = () => {
               <div className="sm:py-8  md:col-span-2 mx-auto">
                 <div className=" mx-auto px-4  text-gray-600">
                    <img
-                      src="https://live.staticflickr.com/65535/53082988986_12dd56942b_n.jpg"
+                      src="https://live.staticflickr.com/65535/53197166541_6efe4ef1e9_o.png"
                       className="md:w-64"
                       width="320"
                       height="319"
